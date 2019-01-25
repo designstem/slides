@@ -1,0 +1,1 @@
+rollup -f iife -i index.js | uglifyjs > build.js
