@@ -1,1 +1,1 @@
-# slides
+# DesignSTEM slides
