@@ -76,31 +76,39 @@ Formaalhariduse õpieesmärkidesse on vähesel määral seotud **kestliku arengu
 | 2 3 7 7
 | 4 5 7 7
 
+<f-animation :loop="false" set="c1" to="1000" duration="600" easing="easeOutCubic" integer />
+
+<f-animation :loop="false" set="c2" to="100" duration="600" easing="easeOutCubic" integer />
+
+<f-animation :loop="false" set="c3" to="20" duration="600" easing="easeOutCubic" integer />
+
+<f-animation :loop="false" set="c4" to="5" duration="600" easing="easeOutCubic" integer />
+
 # Lahendus
 
 -
 
-# <big><big>1000</big></big>
+# <big><big>{{ get('c1') }}</big></big>
 
-### õpilast +<br>õpetajat / kasusaajat
-
--
-
-# <big><big>100</big></big>
-
-### keskkooli +<br>kutsekooli
+<big>õpilast +<br>õpetajat / kasusaajat</big>
 
 -
 
-# <big><big>20</big></big>
+# <big><big>{{ get('c2') }}</big></big>
 
-### kuu<br>jooksul
+<big>keskkooli +<br>kutsekooli</big>
 
 -
 
-# <big><big>5</big></big>
+# <big><big>{{ get('c3') }}</big></big>
 
-### haridustehnoloogia professionaali
+<big>kuu<br>jooksul</big>
+
+-
+
+# <big><big>{{ get('c4') }}</big></big>
+
+<big>haridustehnoloogia professionaali</big>
 
 -
 
@@ -217,6 +225,8 @@ Rahastus `150 000 €`, 20 töökuud, vahemikus **2020 - 2022**.
 **Alates 2022:** platvormi rakendamine, arendamine ja õpiprojektide loomine järgmistes organisatsioonide toel:
 
 HITSA, TÜ, TLÜ, EKA, Taltech, Pallas jt rakenduskõrgkoolid, kutsekoolid, riigigümnaasiumid
+
+-
 
 ## Mentorid
 
