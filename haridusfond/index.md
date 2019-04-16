@@ -23,51 +23,27 @@
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Tööturul aina olulisemaks saavate **STEAM** (loodus- ja täppisteaduste ained ning loovuse ja meeskonnatöö) **oskuste vähene omandamine** formaalhariduses
-
-</f-card>
+<big>Õpilaste kesised <f-sidebar title="STEAM" src="./steam.md" /> oskused</big>
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-<big>LTT ja STEAM õpetajate **järelkasvu puudus** koolides</big>
-
-</f-card>
+<big><f-sidebar title="21. sajandi oskuste" src="./21.md" /> vähene omandamine</big>
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Kaasaegsete, lõimitud, rakendusliku suunitlusega, eestikeelsete, tasuta ja lihtsalt ligipääsetavate **õppematerjalide ning** vastava õppe võimekusega **õpetajate puudus** keskharidusõppes
-
-</f-card>
+<big>Kestliku arengu eesmärkide vähene sidumine õpieesmärkidega</big>
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-3D ja virtuaalreaalsust rakendavate õppematerjalide loomise **kaasaegse ja kasutajasõbraliku tehnilise platvormi puudumine**
-
-</f-card>
+<big>Õpetajate (järelkasvu) puudus <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õppes</big>
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-<big>**21\. sajandi oskuste vähene omandamine** keskharidusõppes</big>
-
-</f-card>
+<big>Õppematerjalide (loomise võimekuse) vähesus, mis käsitleks STEAMi rakenduslikult, eestikeelselt, tasuta ja kasutajasõbralikult</big>
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Formaalhariduse õpieesmärkidesse on vähesel määral seotud **kestliku arengu** eesmärke 
-
-</f-card>
+<big>Platvormi puudus, mis võimaldaks kasutajasõbralikult luua 3D ja virtuaalreaalsust rakendavaid õppematerjale</big>
 
 ---
 
@@ -112,24 +88,27 @@ Formaalhariduse õpieesmärkidesse on vähesel määral seotud **kestliku arengu
 
 -
 
-# Mõju
+# Pikaajaline mõju
 
 -
-* Kaasaegse, lõimitud ja rakendusliku <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õppe kaalukas levi keskhariduses
 
-* <f-sidebar title="21. sajandi oskuste" src="./21.md" /> kõrgem tase keskharidusõppijatel ning kestliku arengu eesmärkide orgaaniline sidumine formaalhariduse õpieesmärkidega
+* Kaasaegse, rakendusliku STEAM õppe kaalukas levi keskhariduses
 
-* LTT / STEAM / disaini erialade populaarsuse kasv edasiõppimiseks
+* 21. sajandi oskuste kõrgem tase keskharidusõppijatel
 
-* LTT / STEAM õpetajaameti maine tõus 15+ õppijate silmis ja avalikkuses laiemalt
+* Kestliku arengu eesmärkide orgaaniline sidumine formaalhariduse õpieesmärkidega
+
+* STEAM / disaini erialade populaarsuse kasv edasiõppimiseks
+
+* STEAM õpetajaameti maine tõus 15+ õppijate silmis ja avalikkuses laiemalt
 
 ---
 
 # Tehtud
 
-DesignSTEM alustas 2016 Helsingi ülikooli LUMA keskuse metoodilisel juhendamisel
+DesignSTEM kui 10 riigi kutse- ja kõrgkooli LTT ja disaini e-õppematerjalide loomise strateegiline koostööprojekt alates 2016 Helsingi ülikooli LUMA keskuse metoodilisel juhendamisel
 
-õpiprojekte on tulemuslikult testinud  kümned LTT/disaini õpetajad ja õpilased Eesti, Hollandi, Portugali ja Itaalia koolides
+STEAM õpiprojekte tulemuslikult testinud **50 LTT/disaini õpetajat ja õpilast** Eesti, Hollandi, Portugali ja Itaalia koolides
 
 veebitöövahend Fachwerk, mis ühendab teksti, fotod, video, animatsioonid ja interaktiivsed elemendid atraktiivseks õppematerjaliks; sisu kasutaja arvutis muudetav, täiendatav ja jagatav; võimaldab luua arvutikeskseid ning pabermaterjalile, 3D-printeritele ning virtuaalreaalsuse seadmetele õpiobjekte; valminud on ca 20 õpiprojekti
 
@@ -138,7 +117,7 @@ veebitöövahend Fachwerk, mis ühendab teksti, fotod, video, animatsioonid ja i
 
 # Visioon: 1 a ja 3 a
 
-* Aastatel 2020 - 2022 ca 1000 inspireertud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat + seotud organisatsioonid Haridusfondi toel   
+* Aastatel 2020 - 2022 1000 inspireeritud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat + seotud organisatsioonid Haridusfondi toel
 
 * Aastatel 2022 - 2025 HITSA-l, riigigümnaasiumitel, kutsekoolidel, TÜ haridusuuenduskeskusel, TLÜ haridusinnovatsiooni keskusel, EKA-l, Taltechil, Pallasel võimekus platvormi kasutada, õpiprojekte luua, arendada, ja õpetajaid koolitada
 
@@ -192,8 +171,8 @@ veebitöövahend Fachwerk, mis ühendab teksti, fotod, video, animatsioonid ja i
 
 Kirjeldus|Summa
 ---|---
-Sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid, õppematerjali tõlkimine|` 10 000 €`
-5 inimese töötasud, kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
+**Koolituste üldkulud** (õppematerjali tõlkimine, sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid)|` 10 000 €`
+**5 inimese töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
 **Kokku**|**`150 000 €`**
 
 ### Programmi hind kasusaaja kohta
@@ -222,7 +201,7 @@ Rahastus `150 000 €`, 20 töökuud, vahemikus **2020 - 2022**.
 
 ## Jätkusuutlikkus
 
-**Alates 2022:** platvormi rakendamine, arendamine ja õpiprojektide loomine järgmistes organisatsioonide toel:
+**Alates 2022:** platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostoööpartnerit toel
 
 HITSA, TÜ, TLÜ, EKA, Taltech, Pallas jt rakenduskõrgkoolid, kutsekoolid, riigigümnaasiumid
 
