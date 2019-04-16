@@ -80,34 +80,34 @@
 
 -
 
-### Õpilaste kesised <f-sidebar title="STEAM" src="./steam.md" /> oskused
+#### Õpilaste kesised <f-sidebar title="STEAM" src="./steam.md" /> oskused
 
 -
 
-### <f-sidebar title="21. sajandi oskuste" src="./21.md" /> vähene omandamine
+#### <f-sidebar title="21. sajandi oskuste" src="./21.md" /> vähene omandamine
 
 -
 
-### Kestliku arengu eesmärkide vähene sidumine õpieesmärkidega
+#### Kestliku arengu eesmärkide vähene sidumine õpieesmärkidega
 
 -
 
-### <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
+#### <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
 
 -
 
-### Õppematerjalide puudus mis käsitleks <f-sidebar title="STEAMi" src="./steam.md" /> interaktiivselt, kaasaegselt ja eestikeelselt
+#### Õppematerjalide puudus, mis käsitleks <f-sidebar title="STEAMi" src="./steam.md" /> interaktiivselt, kaasaegselt ja eestikeelselt
 
 -
 
-### Tehnilise platvormi puudus, mis võimaldaks kasutajasõbralikult integeerida teksti-, pildi-, video-, 3D- ja VR-sisu
+#### Tehnilise platvormi puudus, mis võimaldaks kasutajasõbralikult integeerida teksti-, pildi-, video-, 3D- ja VR-sisu
 
 ---
 
 | height: 50vh
-| 1 1 6 6
-| 2 3 7 7
-| 4 5 7 7
+| 1 1 5 5
+| 2 3 6 6
+| 4 4 6 6
 
 <f-animation :loop="false" set="c1" to="1000" duration="900" easing="easeOutCubic" integer />
 
@@ -123,41 +123,53 @@
 
 # <big><big>{{ get('c4') }}</big></big>
 
-haridustehnoloogia professionaali koolitavad
+õpetajat ja disainerit<br>koolitavad
 
 -
 
 # <big><big>{{ get('c3') }}</big></big>
 
-kuu<br>jooksul
-
--
-
-# <big><big>{{ get('c2') }}</big></big>
-
-keskkoolis +<br>kutsekoolis
+kuu jooksul
 
 -
 
 # <big><big>{{ get('c1') }}</big></big>
 
-õpilast + õpetajat looma STEAM õpiprojekte
+õpilast, õpetajaks õppijat ja õpetajat<br>looma **STEAM õpiprojekte**
 
 -
+
 
 # Mõju
 
 -
 
-* Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses
+<ul>
+<li>
+<p>
 
-* 21. sajandi oskuste **kõrgem tase** keskharidusõppijatel
+Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses</p>
+</li>
+<li>
+<p>
+21. sajandi oskuste <b>kõrgem tase</b> keskharidusõppijatel</p></li>
+<li>
+<p>
 
-* Kestliku arengu eesmärkide **orgaaniline sidumine** formaalhariduse õpieesmärkidega
+Kestliku arengu eesmärkide **orgaaniline sidumine** formaalhariduse õpieesmärkidega</p>
+</li>
+<li>
+<p>
 
-* STEAM / disaini erialade **populaarsuse kasv** edasiõppimiseks
+STEAM / disaini erialade **populaarsuse kasv** edasiõppimiseks</p>
+</li>
+<li>
+<p>
 
-* STEAM õpetajaameti **maine tõus** 15+ õppijate silmis ja avalikkuses laiemalt
+STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
+</p>
+</li>
+</ul>
 
 
 ---
@@ -199,9 +211,9 @@ keskkoolis +<br>kutsekoolis
 
 **DesignSTEM 1.0**
 
-10 riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt Helsingi ülikooli LUMA keskuse metoodilisel juhendamisel.
+10 riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt <f-sidebar title="Helsingi ülikooli" src="./helsinki.md" /> LUMA keskuse metoodilisel juhendamisel.
 
-**20 õpiprojekti** on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
+<f-sidebar title="20 õpiprojekti" width="40vw"><img src="./images/poster.png" style="box-shadow:0 3px 2px 0 hsla(0,0%,0%,0.3)" /></f-sidebar> on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
 
 </section>
 
@@ -213,9 +225,9 @@ keskkoolis +<br>kutsekoolis
 
 <strong>Veebiraamistik <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a></strong> <f-arrow-icon rotation="-45" />
 
-Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)">dünaamilist matemaatikat</a> , <a v-on:click="set('s',2)">3D-mudeleid</a>, generatiivset <a v-on:click="set('s',0)">disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
+Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer;">dünaamilist matemaatikat</a> , <a v-on:click="set('s',2)" style="cursor:pointer;">3D-mudeleid</a>, generatiivset <a v-on:click="set('s',0)" style="cursor:pointer;">disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
 
-Kõiki materjale saab lihtsalt <a v-on:click="send('edit')">muuta</a>, kohandada ja edasi jagada. 
+Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
 
 </section>
 
@@ -256,6 +268,8 @@ Kõiki materjale saab lihtsalt <a v-on:click="send('edit')">muuta</a>, kohandada
 	</f-rotation>
 	</f-spin-pattern>
 </f-scene>
+</div>
+</center>
 
 </section>
 
@@ -328,7 +342,7 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 
 ### Janika Nõmmela- Semjonov / õpetaja + disainer
 
-<small>Kujundusgraafika erialajuht, pedagoog-metoodik, kunsti-didaktika lektor. Tartu Kunstikool, TÜ VKA
+<small>Kujundusgraafika erialajuht, pedagoog-metoodik, kunsti-didaktika lektor, Tartu Kunstikool, TÜ VKA
 [ETIS](https://www.etis.ee/CV/Janika_N%C3%B5mmela_Semjonov/est)</small>
 
 -
@@ -342,15 +356,15 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 
 ### Kristjan Jansen / disainer + arendaja
 
-<small>UX disainer, arendaja ja õpetaja. Skype, Taxify / Bolt, Kuressaare ametikooli disaini- ja IT-suund
+<small>UX disainer, arendaja ja õpetaja, Skype, Taxify / Bolt, Kuressaare ametikooli disaini- ja IT-suund
 [Koduleht](https://kristjanjansen.ee/) [Linkedin](https://www.linkedin.com/in/kristjan-jansen-778b0615)</small>
 
 -
 
 ### Oliver<br>Maaker / disainer + arendaja
 
-<small>UX disainer, arendaa ja õpetaja. Kuressaare ametikooli disainisuund
-[Linkedin](https://ee.linkedin.com/in/oliver-maaker-69450a12)<small>
+<small>UX disainer, arendaja ja õpetaja, Kuressaare ametikooli disainisuund
+</small>
 
 ---
 
@@ -361,14 +375,14 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 Kirjeldus|Summa
 ---|---
 **Koolituste üldkulud** (õppematerjali tõlkimine, sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid)|` 10 000 €`
-**5 inimese töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
+**5 meeskonnaliikme töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
 **Kokku**|**`150 000 €`**
 
 ### Programmi hind kasusaaja kohta
 
 Kirjeldus|Summa
 ---|---
-`150 000 €` / 1000 kasusaajat|`140 €` kasusaaja kohta
+`150 000 €` / 1000 kasusaajat|`150 €` kasusaaja kohta
 
 ---
 
@@ -382,15 +396,15 @@ Rahastus `150 000 €`, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud
 
 **2022 - 2025+** 
 
-Platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostööpartnerit toel:
+Platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostööpartnerite toel:
 
-HITSA, riigigümnaasiumid, kutsekoolid, TÜ haridusuuenduskeskusel, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
+HITSA, riigigümnaasiumid, kutsekoolid, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
 
 -
 
 ## Mentorid
 
-Plaanitavad pro bono mentorid, näidistundides osalejad ja soovitajad:
+Plaanitavad *pro bono* mentorid, näidistundides osalejad ja soovitajad:
 
 <p style="color: var(--gray)">Alari Aho, Riivo Anton, Viljar Arakas, Ahti Heinla, Martin ja Terje Henk, Taavet Hinrikus, Gerri Kodres, Norris Koppel, Kristo Käärmann, Rain Lõhmus, Piret ja Veljo Otsason, Jaan Pillesaar, Martin Rand, Risto Rossar, Tõnu Runnel, Ragnar Sass, Helen ja Martin Tajur, Annika Tallinn, Dina ja Hannes Tamjärv, Ede ja Sten Tamkivi, Kalev Tanner, Sten Tikk, Priit Vaikmaa, Peep Vain, Kaido Veske, Mari-Liis ja Martin Villig</p>
 
