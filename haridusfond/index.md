@@ -225,7 +225,7 @@ STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
 
 <strong>Veebiraamistik <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a></strong> <f-arrow-icon rotation="-45" />
 
-Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer;">dünaamilist matemaatikat</a> , <a v-on:click="set('s',2)" style="cursor:pointer;">3D-mudeleid</a>, generatiivset <a v-on:click="set('s',0)" style="cursor:pointer;">disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
+Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">dünaamilist matemaatikat</a>, <a v-on:click="set('s',2)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">3D-mudeleid</a>, <a v-on:click="set('s',0)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">generatiivset disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
 
 Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
 
@@ -237,7 +237,8 @@ Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointe
 
 ## &nbsp;
 
-<center><div>
+<center>
+<div>
 <f-scene width="250" height="250">
 	<f-spin-pattern>
 	<f-rotation>
@@ -256,10 +257,11 @@ Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointe
 		<f-hexagon
 			:position="get('p',[])[2]"
 			:fill="color('yellow')"
+			:scale="get('size', 1)"
 			stroke
 		/>
 		<f-regularpolygon
-			count="5"
+			count="3"
 			:position="get('p',[])[3]"
 			:fill="color('orange')"
 			stroke
@@ -268,6 +270,9 @@ Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointe
 	</f-rotation>
 	</f-spin-pattern>
 </f-scene>
+
+<f-slider set="size" from="0.9" to="1.6" step="0.1" />
+
 </div>
 </center>
 
