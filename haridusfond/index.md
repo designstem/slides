@@ -1,17 +1,74 @@
-
-| padding: 0
-
 <center><div>
-
-<f-scene3>
-	<f-rotation3>
-		<f-polyhedron3 />
-  </f-rotation3>
-</f-scene3>
+<f-scene width="200" height="200">
+	<f-spin-pattern>
+	<f-slice-pattern r="1">
+		<f-box
+			:position="get('p',[])[0]"
+			:fill="color('red')"
+			r="1"
+			stroke
+		/>
+    <f-circle
+			:position="get('p',[])[1]"
+			:fill="color('darkred')"
+			stroke
+			r="0.75"
+		/>
+		<f-hexagon
+			:position="get('p',[])[2]"
+			:fill="color('yellow')"
+			stroke
+			r="0.75"
+		/>
+		<f-regularpolygon
+			count="5"
+			:position="get('p',[])[3]"
+			:fill="color('orange')"
+			stroke
+			r="0.75"
+		/>
+	</f-slice-pattern>
+	</f-spin-pattern>
+</f-scene>
 
 # <big><big>DesignSTEM&nbsp;2.0</big></big>
 
-</div></center>
+<f-scene v-slot="{ mouse }" width="200" height="200">
+  <f-drag
+    :mouse="mouse"
+    points="0.5 -0.5, -0.5 0.5, -0.5 -0.5, 0.5 0.5"
+    v-slot="{ points }"
+    set="p"
+  >
+		<f-box
+			:position="points[0]"
+			:fill="color('red')"
+			stroke
+			r="1"
+		/>
+    <f-circle
+			:position="points[1]"
+			:fill="color('darkred')"
+			stroke
+			r="0.75"
+		/>
+		<f-hexagon
+			:position="points[2]"
+			:fill="color('yellow')"
+			stroke
+			r="0.75"
+		/>
+		<f-regularpolygon
+			count="5"
+			:position="points[3]"
+			:fill="color('orange')"
+			stroke
+			r="0.75"
+		/>
+  </f-drag>
+</f-scene>
+</div>
+</center>
 
 ---
 
@@ -23,51 +80,27 @@
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Tööturul aina olulisemaks saavate **STEAM** (loodus- ja täppisteaduste ained ning loovuse ja meeskonnatöö) **oskuste vähene omandamine** formaalhariduses
-
-</f-card>
+### Õpilaste kesised <f-sidebar title="STEAM" src="./steam.md" /> oskused
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-<big>LTT ja STEAM õpetajate **järelkasvu puudus** koolides</big>
-
-</f-card>
+### <f-sidebar title="21. sajandi oskuste" src="./21.md" /> vähene omandamine
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Kaasaegsete, lõimitud, rakendusliku suunitlusega, eestikeelsete, tasuta ja lihtsalt ligipääsetavate **õppematerjalide ning** vastava õppe võimekusega **õpetajate puudus** keskharidusõppes
-
-</f-card>
+### Kestliku arengu eesmärkide vähene sidumine õpieesmärkidega
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-3D ja virtuaalreaalsust rakendavate õppematerjalide loomise **kaasaegse ja kasutajasõbraliku tehnilise platvormi puudumine**
-
-</f-card>
+### <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-<big>**21\. sajandi oskuste vähene omandamine** keskharidusõppes</big>
-
-</f-card>
+### Õppematerjalide puudus mis käsitleks <f-sidebar title="STEAMi" src="./steam.md" /> interaktiivselt, kaasaegselt ja eestikeelselt
 
 -
 
-<f-card border="var(--darkblue)" background>
-
-Formaalhariduse õpieesmärkidesse on vähesel määral seotud **kestliku arengu** eesmärke 
-
-</f-card>
+### Tehnilise platvormi puudus, mis võimaldaks kasutajasõbralikult integeerida teksti-, pildi-, video-, 3D- ja VR-sisu
 
 ---
 
@@ -76,71 +109,206 @@ Formaalhariduse õpieesmärkidesse on vähesel määral seotud **kestliku arengu
 | 2 3 7 7
 | 4 5 7 7
 
-<f-animation :loop="false" set="c1" to="1000" duration="600" easing="easeOutCubic" integer />
+<f-animation :loop="false" set="c1" to="1000" duration="900" easing="easeOutCubic" integer />
 
-<f-animation :loop="false" set="c2" to="100" duration="600" easing="easeOutCubic" integer />
+<f-animation :loop="false" set="c2" to="100" duration="900" easing="easeOutCubic" integer />
 
-<f-animation :loop="false" set="c3" to="20" duration="600" easing="easeOutCubic" integer />
+<f-animation :loop="false" set="c3" to="20" duration="900" easing="easeOutCubic" integer />
 
-<f-animation :loop="false" set="c4" to="5" duration="600" easing="easeOutCubic" integer />
+<f-animation :loop="false" set="c4" to="5" duration="900" easing="easeOutCubic" integer />
 
 # Lahendus
 
 -
 
-# <big><big>{{ get('c1') }}</big></big>
+# <big><big>{{ get('c4') }}</big></big>
 
-<big>õpilast +<br>õpetajat / kasusaajat</big>
-
--
-
-# <big><big>{{ get('c2') }}</big></big>
-
-<big>keskkooli +<br>kutsekooli</big>
+haridustehnoloogia professionaali koolitavad
 
 -
 
 # <big><big>{{ get('c3') }}</big></big>
 
-<big>kuu<br>jooksul</big>
+kuu<br>jooksul
 
 -
 
-# <big><big>{{ get('c4') }}</big></big>
+# <big><big>{{ get('c2') }}</big></big>
 
-<big>haridustehnoloogia professionaali</big>
+keskkoolis +<br>kutsekoolis
+
+-
+
+# <big><big>{{ get('c1') }}</big></big>
+
+õpilast + õpetajat looma STEAM õpiprojekte
 
 -
 
 # Mõju
 
 -
-* Kaasaegse, lõimitud ja rakendusliku <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õppe kaalukas levi keskhariduses
 
-* <f-sidebar title="21. sajandi oskuste" src="./21.md" /> kõrgem tase keskharidusõppijatel ning kestliku arengu eesmärkide orgaaniline sidumine formaalhariduse õpieesmärkidega
+* Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses
 
-* LTT / STEAM / disaini erialade populaarsuse kasv edasiõppimiseks
+* 21. sajandi oskuste **kõrgem tase** keskharidusõppijatel
 
-* LTT / STEAM õpetajaameti maine tõus 15+ õppijate silmis ja avalikkuses laiemalt
+* Kestliku arengu eesmärkide **orgaaniline sidumine** formaalhariduse õpieesmärkidega
+
+* STEAM / disaini erialade **populaarsuse kasv** edasiõppimiseks
+
+* STEAM õpetajaameti **maine tõus** 15+ õppijate silmis ja avalikkuses laiemalt
+
 
 ---
 
-# Tehtud
+| padding: 0
+| gap: 0
 
-DesignSTEM alustas 2016 Helsingi ülikooli LUMA keskuse metoodilisel juhendamisel
+| 1 2 3 4 5 6
+| 7 7 8 8 9 9
+| 7 7 8 8 9 9
 
-õpiprojekte on tulemuslikult testinud  kümned LTT/disaini õpetajad ja õpilased Eesti, Hollandi, Portugali ja Itaalia koolides
-
-veebitöövahend Fachwerk, mis ühendab teksti, fotod, video, animatsioonid ja interaktiivsed elemendid atraktiivseks õppematerjaliks; sisu kasutaja arvutis muudetav, täiendatav ja jagatav; võimaldab luua arvutikeskseid ning pabermaterjalile, 3D-printeritele ning virtuaalreaalsuse seadmetele õpiobjekte; valminud on ca 20 õpiprojekti
-
+<f-image src="./images/1.jpg" />
 
 -
 
-# Visioon: 1 a ja 3 a
+<f-image src="./images/5.jpg" />
 
-* Aastatel 2020 - 2022 ca 1000 inspireertud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat + seotud organisatsioonid Haridusfondi toel   
+-
 
-* Aastatel 2022 - 2025 HITSA-l, riigigümnaasiumitel, kutsekoolidel, TÜ haridusuuenduskeskusel, TLÜ haridusinnovatsiooni keskusel, EKA-l, Taltechil, Pallasel võimekus platvormi kasutada, õpiprojekte luua, arendada, ja õpetajaid koolitada
+<f-image src="./images/4.jpg" />
+
+-
+
+<f-image src="./images/8.jpg" />
+
+-
+
+<f-image src="./images/2.jpg" />
+
+-
+
+<f-image src="./images/6.jpg" />
+
+-
+
+<section>
+
+## Tehtud 2016-2019
+
+**DesignSTEM 1.0**
+
+10 riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt Helsingi ülikooli LUMA keskuse metoodilisel juhendamisel.
+
+**20 õpiprojekti** on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
+
+</section>
+
+-
+
+<section>
+
+## &nbsp;
+
+<strong>Veebiraamistik <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a></strong> <f-arrow-icon rotation="-45" />
+
+Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)">dünaamilist matemaatikat</a> , <a v-on:click="set('s',2)">3D-mudeleid</a>, generatiivset <a v-on:click="set('s',0)">disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
+
+Kõiki materjale saab lihtsalt <a v-on:click="send('edit')">muuta</a>, kohandada ja edasi jagada. 
+
+</section>
+
+-
+
+<section v-if="get('s',0) == 0">
+
+## &nbsp;
+
+<center><div>
+<f-scene width="250" height="250">
+	<f-spin-pattern>
+	<f-rotation>
+	<f-slice-pattern r="1">
+		<f-box
+			:position="get('p',[])[0]"
+			:fill="color('red')"
+			r="1.5"
+			stroke
+		/>
+    <f-circle
+			:position="get('p',[])[1]"
+			:fill="color('darkred')"
+			stroke
+		/>
+		<f-hexagon
+			:position="get('p',[])[2]"
+			:fill="color('yellow')"
+			stroke
+		/>
+		<f-regularpolygon
+			count="5"
+			:position="get('p',[])[3]"
+			:fill="color('orange')"
+			stroke
+		/>
+	</f-slice-pattern>
+	</f-rotation>
+	</f-spin-pattern>
+</f-scene>
+
+</section>
+
+
+<section v-if="get('s',0) == 1">
+
+## &nbsp;
+
+<f-scene3 width="220" height="220">
+  <f-group3 :rotation="[get('x',0),get('y',0),0]" scale="0.5">
+  <f-grid3 scale="2" />
+	<f-line3
+		:stroke="color('red')"
+		points="0 4 0, 0 -4 0"
+		opacity="0.75"
+	/>
+  <f-point3
+    :points="range(-4,4,0.1)
+    .map(x => ({ x, y: Math.cos(x), z: Math.sin(x) }))"
+    :stroke="color('green')"
+  />
+  <f-point3
+    :points="range(-4,4,0.1)
+    .map(x => ({ x, y: Math.sin(x), z: Math.cos(x) }))"
+    :stroke="color('blue')"
+  />
+  </f-group3>
+</f-scene3>
+
+Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
+
+<f-slider set="y" />
+
+</section>
+
+
+
+<section v-if="get('s',0) == 2">
+
+## &nbsp;
+
+<f-scene3 width="250" height="250">
+	<f-rotation3>
+		<f-grid3 />
+		<f-polyhedron3 hedron="Tetrahedron" scale="0.5" position="-0.5 -0.5 0" />
+		<f-polyhedron3 hedron="Octahedron" scale="0.5" position="-0.5 0.5 0" />
+		<f-polyhedron3 hedron="Icosahedron" scale="0.5"  position="0.5 -0.5 0" />
+		<f-polyhedron3 hedron="Dodecahedron" scale="0.5"  position="0.5 0.5 0" />
+	</f-rotation3>
+</f-scene3>
+
+</section>
+
 
 ---
 
@@ -192,8 +360,8 @@ veebitöövahend Fachwerk, mis ühendab teksti, fotod, video, animatsioonid ja i
 
 Kirjeldus|Summa
 ---|---
-Sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid, õppematerjali tõlkimine|` 10 000 €`
-5 inimese töötasud, kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
+**Koolituste üldkulud** (õppematerjali tõlkimine, sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid)|` 10 000 €`
+**5 inimese töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
 **Kokku**|**`150 000 €`**
 
 ### Programmi hind kasusaaja kohta
@@ -202,29 +370,21 @@ Kirjeldus|Summa
 ---|---
 `150 000 €` / 1000 kasusaajat|`140 €` kasusaaja kohta
 
-
-<!--
-
-* Meeskond: 5 töötajat (1 projektijuht, 2 pedagoogi, 2 arendajat) aastatel 2020 - 2022
-
-* Sihtrühm: 1000 keskhariduses õppijat, õpetajat ja õpetajaks õppijat (sh “Noored kooli”, “Tagasi kooli” ja “Kogenud kooli” osalejad, koostöö TÜ, TLÜ, Taltechi, EKA, HITSAga)
-
-* Haridusfond: 150 000 eurot, sellest 10 000 sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid, õppematerjali tõlkimine; 140 000 eurot töötasud, 140 eurot koos kõigi maksudega 8-tunnine tööpäev, kokku 1000 tööpäeva
-
-* Iga sihtrühma liikme kohta 1 tööpäev ehk kulu 140 eurot, sh planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, parendus, meedikajastus, aruandlus
--->
-
 ---
 
 ## Ootus Heateo Haridusfondile
  
-Rahastus `150 000 €`, 20 töökuud, vahemikus **2020 - 2022**.
+**2020 - 2022**
 
-## Jätkusuutlikkus
+Rahastus `150 000 €`, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat.
 
-**Alates 2022:** platvormi rakendamine, arendamine ja õpiprojektide loomine järgmistes organisatsioonide toel:
+## Projekti jätkusuutlikkus
 
-HITSA, TÜ, TLÜ, EKA, Taltech, Pallas jt rakenduskõrgkoolid, kutsekoolid, riigigümnaasiumid
+**2022 - 2025+** 
+
+Platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostööpartnerit toel:
+
+HITSA, riigigümnaasiumid, kutsekoolid, TÜ haridusuuenduskeskusel, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
 
 -
 
@@ -238,4 +398,15 @@ Plaanitavad pro bono mentorid, näidistundides osalejad ja soovitajad:
 
 
 
+
+<!--
+
+* Meeskond: 5 töötajat (1 projektijuht, 2 pedagoogi, 2 arendajat) aastatel 2020 - 2022
+
+* Sihtrühm: 1000 keskhariduses õppijat, õpetajat ja õpetajaks õppijat (sh “Noored kooli”, “Tagasi kooli” ja “Kogenud kooli” osalejad, koostöö TÜ, TLÜ, Taltechi, EKA, HITSAga)
+
+* Haridusfond: 150 000 eurot, sellest 10 000 sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid, õppematerjali tõlkimine; 140 000 eurot töötasud, 140 eurot koos kõigi maksudega 8-tunnine tööpäev, kokku 1000 tööpäeva
+
+* Iga sihtrühma liikme kohta 1 tööpäev ehk kulu 140 eurot, sh planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, parendus, meedikajastus, aruandlus
+-->
 
