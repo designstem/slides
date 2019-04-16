@@ -1,0 +1,1 @@
+<img src="./images/poster.png" style="box-shadow:0 3px 2px 0 hsla(0,0%,0%,0.3)" /></f-sidebar>

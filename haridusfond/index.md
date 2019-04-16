@@ -88,19 +88,19 @@
 
 -
 
-#### Kestliku arengu eesmärkide vähene sidumine õpieesmärkidega
+#### <f-sidebar title="Kestliku arengu eesmärkide" src="./kestlik-areng.md" /> vähene sidumine õpieesmärkidega
 
 -
 
-#### <f-sidebar title="LTT" src="./ltt.md" /> ja <f-sidebar title="STEAM" src="./steam.md" /> õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
+#### <f-sidebar title="LTT" src="./ltt.md" /> ja STEAM õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
 
 -
 
-#### Õppematerjalide puudus, mis käsitleks <f-sidebar title="STEAMi" src="./steam.md" /> interaktiivselt, kaasaegselt ja eestikeelselt
+#### Õppematerjalide puudus, mis käsitleks STEAMi interaktiivselt, kaasaegselt ja eestikeelselt
 
 -
 
-#### Tehnilise platvormi puudus, mis võimaldaks kasutajasõbralikult integeerida teksti-, pildi-, video-, 3D- ja VR-sisu
+#### Tehnilise platvormi puudus, mis võimaldaks kasutajasõbralikult integreerida teksti-, pildi-, video-, 3D- ja VR-sisu
 
 ---
 
@@ -135,10 +135,9 @@ kuu jooksul
 
 # <big><big>{{ get('c1') }}</big></big>
 
-õpilast, õpetajaks õppijat ja õpetajat<br>looma **STEAM õpiprojekte**
+õpilast, õpetajaks õppijat ja õpetajat looma **kaasaegseid ja eestikeelseid STEAM õpiprojekte**
 
 -
-
 
 # Mõju
 
@@ -209,11 +208,12 @@ STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
 
 ## Tehtud 2016-2019
 
-**DesignSTEM 1.0**
+
+<strong><a href="https://www.facebook.com/DesignSTEM/" target="_blank">DesignSTEM 1.0</a></strong> <f-arrow-icon rotation="-45" />
 
 10 riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt <f-sidebar title="Helsingi ülikooli" src="./helsinki.md" /> LUMA keskuse metoodilisel juhendamisel.
 
-<f-sidebar title="20 õpiprojekti" width="40vw"><img src="./images/poster.png" style="box-shadow:0 3px 2px 0 hsla(0,0%,0%,0.3)" /></f-sidebar> on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
+<f-sidebar title="20 õpiprojekti" src="./poster.md" width="40vw" /> on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
 
 </section>
 
@@ -354,8 +354,8 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 
 ### Anne Rudanovski / õpetaja + disainer
 
-<small>Pabermuuseumi asutaja. Tartu Kunstikool, Tartu Kõrgem Kunstikool Pallas, professor
-[ETIS](https://www.etis.ee/Portal/Persons/Display/c55bc869-ac95-4d97-845b-f7de6e7f26a5)</small>
+<small>Paberimuuseumi asutaja, Tartu Kunstikool, Tartu Kõrgem Kunstikool Pallas, professor
+[Koduleht](https://rudanovski.com/) [ETIS](https://www.etis.ee/Portal/Persons/Display/c55bc869-ac95-4d97-845b-f7de6e7f26a5)</small>
 
 -
 
@@ -375,7 +375,7 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 
 # Eelarve
 
-### Programmi hind
+### Programmi maksumus
 
 Kirjeldus|Summa
 ---|---
@@ -383,7 +383,7 @@ Kirjeldus|Summa
 **5 meeskonnaliikme töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
 **Kokku**|**`150 000 €`**
 
-### Programmi hind kasusaaja kohta
+### Programmi maksumus kasusaaja kohta
 
 Kirjeldus|Summa
 ---|---
@@ -395,7 +395,7 @@ Kirjeldus|Summa
  
 **2020 - 2022**
 
-Rahastus `150 000 €`, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat.
+Rahastus 150 000 €, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud õpilast, õpetajaks õppijat ja õpetajat.
 
 ## Projekti jätkusuutlikkus
 
@@ -403,7 +403,7 @@ Rahastus `150 000 €`, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud
 
 Platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostööpartnerite toel:
 
-HITSA, riigigümnaasiumid, kutsekoolid, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
+HTM, HITSA, riigigümnaasiumid, kutsekoolid, &quot;Noored kooli&quot;, &quot;Alustavat õpetajat toetav kool&quot;, &quot;Huvitav kool&quot;, &quot;Tagasi kooli&quot;, &quot;Kogenud kooli&quot;, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
 
 -
 
