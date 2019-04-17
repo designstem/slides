@@ -348,7 +348,7 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 Kirjeldus|Summa
 ---|---
 **Koolituste üldkulud** (õppematerjali tõlkimine, sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid)|` 10 000 €`
-**5 meeskonnaliikme töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meedikajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
+**5 meeskonnaliikme töötasud** (planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, arendus, meediakajastus, aruandlus) kokku 1000 tööpäeva, 2020 - 2022|`140 000 €`
 **Kokku**|**`150 000 €`**
 
 ### Programmi maksumus kasusaaja kohta
