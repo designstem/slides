@@ -1,6 +1,6 @@
 <center><div>
 <f-scene width="200" height="200">
-	<f-spin-pattern>
+	<f-circle-pattern>
 	<f-slice-pattern r="1">
 		<f-box
 			:position="get('p',[])[0]"
@@ -33,7 +33,7 @@
 
 # <big><big>DesignSTEM&nbsp;2.0</big></big>
 
-<f-scene v-slot="{ mouse }" width="200" height="200">
+<f-scene style="transform: translateY(-50px)" v-slot="{ mouse }" width="300" height="300">
   <f-drag
     :mouse="mouse"
     points="0.5 -0.5, -0.5 0.5, -0.5 -0.5, 0.5 0.5"
@@ -105,9 +105,8 @@
 ---
 
 | height: 50vh
-| 1 1 5 5
-| 2 3 6 6
-| 4 4 6 6
+| 1 1 1 1 5 5 5
+| 2 3 4 4 6 6 6
 
 <f-animation :loop="false" set="c1" to="1000" duration="900" easing="easeOutCubic" integer />
 
@@ -129,7 +128,7 @@
 
 # <big><big>{{ get('c3') }}</big></big>
 
-kuu jooksul
+kuu<br>jooksul
 
 -
 
@@ -143,33 +142,15 @@ kuu jooksul
 
 -
 
-<ul>
-<li>
-<p>
+Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses
 
-Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses</p>
-</li>
-<li>
-<p>
-21. sajandi oskuste <b>kõrgem tase</b> keskharidusõppijatel</p></li>
-<li>
-<p>
+21\. sajandi oskuste <b>kõrgem tase</b> keskharidusõppijatel</p>
 
 Kestliku arengu eesmärkide **orgaaniline sidumine** formaalhariduse õpieesmärkidega</p>
-</li>
-<li>
-<p>
 
 STEAM / disaini erialade **populaarsuse kasv** edasiõppimiseks</p>
-</li>
-<li>
-<p>
 
 STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
-</p>
-</li>
-</ul>
-
 
 ---
 
@@ -211,9 +192,7 @@ STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
 
 <strong><a href="https://www.facebook.com/DesignSTEM/" target="_blank">DesignSTEM 1.0</a></strong> <f-arrow-icon rotation="-45" />
 
-10 riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt <f-sidebar title="Helsingi ülikooli" src="./helsinki.md" /> LUMA keskuse metoodilisel juhendamisel.
-
-<f-sidebar title="20 õpiprojekti" src="./poster.md" width="40vw" /> on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
+10 Euroopa riigi kutse- ja kõrgkooli LTT/disaini e-õppematerjalide loomise koostööprojekt <f-sidebar title="Helsingi ülikooli" src="./helsinki.md" /> LUMA keskuse juhendamisel.<br><f-sidebar title="20 õpiprojekti" src="./poster.md" width="40vw" /> on lõppastme arendusjärgus ja neid on testinud **50 LTT/disaini õpetajat ja õpilast** Eestis, Hollandis, Portugalis ja Itaalias.
 
 </section>
 
@@ -225,9 +204,7 @@ STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
 
 <strong>Veebiraamistik <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a></strong> <f-arrow-icon rotation="-45" />
 
-Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">dünaamilist matemaatikat</a>, <a v-on:click="set('s',2)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">3D-mudeleid</a>, <a v-on:click="set('s',0)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">generatiivset disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente.
-
-Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
+Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">dünaamilist matemaatikat</a>, <br><a v-on:click="set('s',2)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">3D-mudeleid</a>, <a v-on:click="set('s',0)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">generatiivset disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente. Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
 
 </section>
 
@@ -237,44 +214,34 @@ Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointe
 
 ## &nbsp;
 
-<center>
-<div>
-<f-scene width="250" height="250">
-	<f-spin-pattern>
-	<f-rotation>
-	<f-slice-pattern r="1">
-		<f-box
-			:position="get('p',[])[0]"
-			:fill="color('red')"
-			r="1.5"
-			stroke
+<f-scene width="200" height="200">
+	<f-circle-pattern>
+	<f-slice-pattern r="1.5">
+		<f-circle
+			:position="[get('xx',0) / 6,0]"
+			:fill="color('yellow')"
+      :rotation="get('xx') * 90"
+      :r="0.75"
 		/>
     <f-circle
-			:position="get('p',[])[1]"
+			:position="[get('xx',0),0]"
 			:fill="color('darkred')"
-			stroke
+      :rotation="get('xx') * 360 * 2"
+      :r="0.5"
 		/>
-		<f-hexagon
-			:position="get('p',[])[2]"
-			:fill="color('yellow')"
-			:scale="get('size', 1)"
-			stroke
-		/>
-		<f-regularpolygon
-			count="3"
-			:position="get('p',[])[3]"
-			:fill="color('orange')"
-			stroke
+    <f-hexagon
+			:position="[0,1 - get('xx')]"
+			:fill="color('red')"
+      :rotation="0"
+      :r="0.5"
 		/>
 	</f-slice-pattern>
-	</f-rotation>
-	</f-spin-pattern>
+	</f-circle-pattern>
 </f-scene>
 
-<f-slider set="size" from="0.9" to="1.6" step="0.1" />
+Variatiivsus: <var>{{ round(scale(get('xx'),0,1.5,0,100),1) }}%</var>
 
-</div>
-</center>
+<f-slider set="xx" from="0" to="1.5" />
 
 </section>
 
@@ -412,20 +379,3 @@ HTM, HITSA, riigigümnaasiumid, kutsekoolid, &quot;Noored kooli&quot;, &quot;Alu
 Plaanitavad *pro bono* mentorid, näidistundides osalejad ja soovitajad:
 
 <p style="color: var(--gray)">Alari Aho, Riivo Anton, Viljar Arakas, Ahti Heinla, Martin ja Terje Henk, Taavet Hinrikus, Gerri Kodres, Norris Koppel, Kristo Käärmann, Rain Lõhmus, Piret ja Veljo Otsason, Jaan Pillesaar, Martin Rand, Risto Rossar, Tõnu Runnel, Ragnar Sass, Helen ja Martin Tajur, Annika Tallinn, Dina ja Hannes Tamjärv, Ede ja Sten Tamkivi, Kalev Tanner, Sten Tikk, Priit Vaikmaa, Peep Vain, Kaido Veske, Mari-Liis ja Martin Villig</p>
-
-
-
-
-
-
-<!--
-
-* Meeskond: 5 töötajat (1 projektijuht, 2 pedagoogi, 2 arendajat) aastatel 2020 - 2022
-
-* Sihtrühm: 1000 keskhariduses õppijat, õpetajat ja õpetajaks õppijat (sh “Noored kooli”, “Tagasi kooli” ja “Kogenud kooli” osalejad, koostöö TÜ, TLÜ, Taltechi, EKA, HITSAga)
-
-* Haridusfond: 150 000 eurot, sellest 10 000 sõidukulud koolidesse jt organisatsioonidesse, materjalid ja töövahendid, õppematerjali tõlkimine; 140 000 eurot töötasud, 140 eurot koos kõigi maksudega 8-tunnine tööpäev, kokku 1000 tööpäeva
-
-* Iga sihtrühma liikme kohta 1 tööpäev ehk kulu 140 eurot, sh planeerimine, ettevalmistus, korraldus, koolitus, tugi, analüüs, parendus, meedikajastus, aruandlus
--->
-
