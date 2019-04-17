@@ -92,7 +92,7 @@
 
 -
 
-#### <f-sidebar title="LTT" src="./ltt.md" /> ja STEAM õpetajate (järelkasvu) puudus  ning väike võimekus luua atraktiivseid õppematerjale
+#### <f-sidebar title="LTT" src="./ltt.md" /> ja STEAM õpetajate (järelkasvu) puudus, ülekoormatus ja vähene võimalus luua atraktiivseid õppematerjale
 
 -
 
@@ -122,7 +122,7 @@
 
 # <big><big>{{ get('c4') }}</big></big>
 
-õpetajat ja disainerit<br>koolitavad
+õpetajat ja disainerit koolitavad koolides<br>kohapeal
 
 -
 
@@ -142,9 +142,9 @@ kuu<br>jooksul
 
 -
 
-Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** keskhariduses
+Kaasaegse, rakendusliku STEAM õppe **kaalukas levi** põhikooli III astmes ja keskhariduses
 
-21\. sajandi oskuste <b>kõrgem tase</b> keskharidusõppijatel</p>
+21\. sajandi oskuste <b>kõrgem tase</b> põhikooli III astme ja keskharidusõppijatel</p>
 
 Kestliku arengu eesmärkide **orgaaniline sidumine** formaalhariduse õpieesmärkidega</p>
 
@@ -371,7 +371,7 @@ Rahastus 150 000 €, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud �
 
 Õpiprojektide ja platvormi rakendamine, arendamine ja uute õpiprojektide loomine järgmiste koostööpartnerite toel:
 
-HTM, HITSA, riigigümnaasiumid, kutsekoolid, &quot;Noored kooli&quot;, &quot;Alustavat õpetajat toetav kool&quot;, &quot;Huvitav kool&quot;, &quot;Tagasi kooli&quot;, &quot;Kogenud kooli&quot;, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
+HTM, HITSA, keskkoolid, kutsekoolid, &quot;Noored kooli&quot;, &quot;Alustavat õpetajat toetav kool&quot;, &quot;Huvitav kool&quot;, &quot;Tagasi kooli&quot;, &quot;Kogenud kooli&quot;, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
 
 -
 
