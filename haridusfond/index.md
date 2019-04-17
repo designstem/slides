@@ -134,8 +134,8 @@ kuu<br>jooksul
 
 # <big><big>{{ get('c1') }}</big></big>
 
-õpilast, õpetajaks õppijat ja õpetajat looma **kaasaegseid ja eestikeelseid STEAM õpiprojekte**
-
+õpilast, õpetajaks õppijat ja õpetajat looma **kaasaegseid ja eestikeelseid STEAM õpiprojekte**, mis lähtuvad õpitu <f-sidebar title="individuaalsest, ametialasest ja ühiskondlikust relevantsusest" src="./slide3-1.md" :width="'50vw'" /> ning tuginevad <f-sidebar title="5E konstruktivistlikule õpimudelile" src="./slide3-2.md" />
+ 
 -
 
 # Mõju
@@ -204,7 +204,7 @@ STEAM õpetajaameti **maine tõus** õpilaste silmis ja avalikkuses laiemalt
 
 <strong>Veebiraamistik <a href="https://designstem.github.io/fachwerk" target="_blank">Fachwerk</a></strong> <f-arrow-icon rotation="-45" />
 
-Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">dünaamilist matemaatikat</a>, <br><a v-on:click="set('s',2)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">3D-mudeleid</a>, <a v-on:click="set('s',0)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">generatiivset disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente. Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
+Vabavaraline raamistik aitab luua atraktiivset õpikeskkonda, mis sisaldab <a v-on:click="set('s',1)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">dünaamilist matemaatikat</a>, <a v-on:click="set('s',2)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">3D-mudeleid</a>, <a v-on:click="set('s',0)" style="cursor:pointer; color:var(--blue); border-bottom:1px dotted var(--blue);">generatiivset disaini</a>, VR-elamusi ja palju teisi koodipõhiseid interaktiivseid elemente. Kõiki materjale saab lihtsalt <a v-on:click="send('edit')" style="cursor:pointer;">muuta</a>, kohandada ja jagada. 
 
 </section>
 
@@ -308,28 +308,29 @@ Pöördenurk ümber <var>y</var> telje: <var>{{ round(get('y'),1) }}°</var>
 ### Merit Karise / projektijuht + õpetaja 
 
 <small>Disaini valdkonna meisterõpetaja, aasta õpetaja 2018, globaalse õpetajapreemia Top50 finalist 2015, Kuressaare ametikooli disainisuund, Tartu Kunstikool.
-[Portfolio](http://polygon.onkel.ee/merit/portfolio/)</small>
+<a href="http://polygon.onkel.ee/merit/portfolio/" target="_blank">Portfolio</a></small>
 
 -
 
 ### Janika Nõmmela- Semjonov / õpetaja + disainer
 
 <small>Kujundusgraafika erialajuht, pedagoog-metoodik, kunsti-didaktika lektor, Tartu Kunstikool, TÜ VKA
-[ETIS](https://www.etis.ee/CV/Janika_N%C3%B5mmela_Semjonov/est)</small>
+<a href="https://www.etis.ee/CV/Janika_N%C3%B5mmela_Semjonov/est" target="_blank">ETIS</a></small>
 
 -
 
 ### Anne Rudanovski / õpetaja + disainer
 
 <small>Paberimuuseumi asutaja, Tartu Kunstikool, Tartu Kõrgem Kunstikool Pallas, professor
-[Koduleht](https://rudanovski.com/) [ETIS](https://www.etis.ee/Portal/Persons/Display/c55bc869-ac95-4d97-845b-f7de6e7f26a5)</small>
+<a href="https://rudanovski.com/" target="_blank">Koduleht</a> <a href="https://www.etis.ee/Portal/Persons/Display/c55bc869-ac95-4d97-845b-f7de6e7f26a5" target="_blank">ETIS</a></small>
 
 -
 
 ### Kristjan Jansen / disainer + arendaja
 
 <small>UX disainer, arendaja ja õpetaja, Skype, Taxify / Bolt, Kuressaare ametikooli disaini- ja IT-suund
-[Koduleht](https://kristjanjansen.ee/) [Linkedin](https://www.linkedin.com/in/kristjan-jansen-778b0615)</small>
+
+<a href="https://kristjanjansen.ee/" target="_blank">Koduleht</a> <a href="https://www.linkedin.com/in/kristjan-jansen-778b0615" target="_blank">Linkedin</a></small>
 
 -
 
@@ -368,7 +369,7 @@ Rahastus 150 000 €, 20 töökuud. 1000 inspireeritud, koolitatud ja toetatud �
 
 **2022 - 2025+** 
 
-Platvormi rakendamine, arendamine ja õpiprojektide loomine järgmiste koostööpartnerite toel:
+Õpiprojektide ja platvormi rakendamine, arendamine ja uute õpiprojektide loomine järgmiste koostööpartnerite toel:
 
 HTM, HITSA, riigigümnaasiumid, kutsekoolid, &quot;Noored kooli&quot;, &quot;Alustavat õpetajat toetav kool&quot;, &quot;Huvitav kool&quot;, &quot;Tagasi kooli&quot;, &quot;Kogenud kooli&quot;, TÜ haridusuuenduskeskus, TLÜ haridusinnovatsiooni keskus, EKA, Taltech, Pallas.
 
