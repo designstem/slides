@@ -120,19 +120,19 @@
 
 -
 
-# <big><big><big>{{ get('c4') }}</big></big></big>
+# <big><big>{{ get('c4') }}</big></big>
 
 õpetajat ja disainerit<br>koolitavad
 
 -
 
-# <big><big><big>{{ get('c3') }}</big></big></big>
+# <big><big>{{ get('c3') }}</big></big>
 
 kuu<br>jooksul
 
 -
 
-# <big><big><big>{{ get('c1') }}</big></big></big>
+# <big><big>{{ get('c1') }}</big></big>
 
 õpilast, õpetajaks õppijat ja õpetajat looma **kaasaegseid ja eestikeelseid STEAM õpiprojekte**
 
