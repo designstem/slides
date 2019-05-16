@@ -38,6 +38,6 @@ Web framework for creating interactive learning experiences
 
 <br>
 
-Explore over ***100+*** components 2D/3D graphics, user interaction, comprehensive layouts, beautiful math and more.
+Explore over ***100+*** components for 2D/3D graphics, user interaction, comprehensive layouts, beautiful math and more.
 
 https://designstem.github.io/fachwerk
