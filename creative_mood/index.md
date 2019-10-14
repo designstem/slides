@@ -194,3 +194,92 @@ Erasmus +
 
 <em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
 
+---
+
+| background: assets/greece/01_creative_mood.jpg
+| theme: dark
+| 1 1
+| 2 3
+| rows: 1fr auto
+
+-
+
+## <em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
+-
+
+---
+
+| 1 2 2
+| 3 3 3
+| theme: dark
+| rows: 1fr auto
+| style: text-align: right;
+
+<f-image src="assets/greece/02_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/greece/03_creative_mood.jpg" />
+
+-
+
+<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
+---
+
+| 1 2 3
+| 4 4 4
+| theme: dark
+| rows: 1fr auto
+| style: text-align: right;
+
+<f-image src="assets/greece/04_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/greece/05_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/greece/06_creative_mood.jpg" />
+
+-
+
+<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
+---
+
+| 1 2
+| 3 3
+| theme: dark
+| rows: 1fr auto
+| style: text-align: right;
+
+<f-image src="assets/greece/08_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/greece/07_creative_mood.jpg" />
+
+-
+
+<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
+---
+
+| 1 2
+| 3 3
+| theme: dark
+| rows: 1fr auto
+| style: text-align: right;
+
+<f-image src="assets/greece/10_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/greece/11_creative_mood.jpg" />
+
+-
+
+<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
