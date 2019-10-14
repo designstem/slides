@@ -1,3 +1,5 @@
+| chapter: Introduction
+| section: DesignSTEM logo animation
 
 <video autoplay loop>
     <source src="assets/intro.mp4"
@@ -7,6 +9,8 @@
 </video>
 
 ---
+
+| section: Designstem Erasmus +
 
 <center style="flex-direction: column">
 
@@ -30,6 +34,8 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| chapter: Galleries
+| section: Kuressaare, Estonia, Dec 2016
 
 -
 
@@ -67,6 +73,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Helsinki, Finland, February 2017
 
 -
 
@@ -196,11 +203,12 @@ Erasmus +
 
 ---
 
-| background: assets/greece/01_creative_mood.jpg
+| background: assets/piraeus/01_creative_mood.jpg
 | theme: dark
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Piraeus, Greece, May-June 2017
 
 -
 
@@ -216,11 +224,11 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/greece/02_creative_mood.jpg" />
+<f-image src="assets/piraeus/02_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/greece/03_creative_mood.jpg" />
+<f-image src="assets/piraeus/03_creative_mood.jpg" />
 
 -
 
@@ -234,33 +242,15 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/greece/04_creative_mood.jpg" />
+<f-image src="assets/piraeus/04_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/greece/05_creative_mood.jpg" />
+<f-image src="assets/piraeus/05_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/greece/06_creative_mood.jpg" />
-
--
-
-<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
-
----
-
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/greece/08_creative_mood.jpg" />
-
--
-
-<f-image src="assets/greece/07_creative_mood.jpg" />
+<f-image src="assets/piraeus/06_creative_mood.jpg" />
 
 -
 
@@ -274,11 +264,29 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/greece/10_creative_mood.jpg" />
+<f-image src="assets/piraeus/08_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/greece/11_creative_mood.jpg" />
+<f-image src="assets/piraeus/07_creative_mood.jpg" />
+
+-
+
+<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
+---
+
+| 1 2
+| 3 3
+| theme: dark
+| rows: 1fr auto
+| style: text-align: right;
+
+<f-image src="assets/piraeus/10_creative_mood.jpg" />
+
+-
+
+<f-image src="assets/piraeus/11_creative_mood.jpg" />
 
 -
 
@@ -291,6 +299,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Middlesbrough, UK, October 2017
 
 -
 
@@ -474,6 +483,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Novo Mesto, Slovenia, March 2018
 
 -
 
@@ -590,6 +600,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Amsterdam, the Netherlands, May 201
 
 -
 
@@ -736,6 +747,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Trento, Italy, October 2018
 
 -
 
@@ -860,6 +872,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Braganca, Portugal, March 201
 
 -
 
@@ -1002,6 +1015,7 @@ Erasmus +
 | 1 1
 | 2 3
 | rows: 1fr auto
+| section: Frankfurt, Germany, May 2019
 
 -
 
@@ -1070,3 +1084,11 @@ Erasmus +
 -
 
 <em>Dissemination and final reporting meeting Frankfurt, Germany, May 2019</em>
+
+---
+
+| background: assets/middlesbrough/GRUPP.jpg
+| style: background-size: contain; background-position: center; text-align: center;
+| theme: dark
+
+# <var>Til' next time!</var>
