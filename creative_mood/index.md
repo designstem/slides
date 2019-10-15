@@ -45,8 +45,8 @@ Erasmus +
 
 ---
 
-| 1 2 3
-| 4 4 4
+| 1 2
+| 3 3
 | theme: dark
 | rows: 1fr auto
 | style: text-align: right;
@@ -56,10 +56,6 @@ Erasmus +
 -
 
 <f-image src="assets/kuressaare/01_creative_mood.jpg" />
-
--
-
-<f-image src="assets/kuressaare/04_creative_mood.jpg" />
 
 -
 
