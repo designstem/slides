@@ -14,8 +14,6 @@
 
 <center style="flex-direction: column">
 
-Erasmus +
-
 ## <big>DesignSTEM: e-tools for the integrated <br> education of design and STEM<big/>
 
 <var>The Creative and Co-operative Modus Operandi</var>
@@ -31,17 +29,19 @@ Erasmus +
 
 | background: assets/kuressaare/02_creative_mood.jpg
 | theme: dark
-| 1 1
-| 2 3
+| 1 
+| 2 
 | rows: 1fr auto
 | chapter: Galleries
 | section: Kuressaare, Estonia, Dec 2016
+| style: background-position: right center
 
 -
 
-## <em>Kick-off meeting <br> in Kuressaare, Estonia, Dec 2016</em>
+## <em>Kick-off meeting <br> <small><small>Kuressaare, Estonia, December 2016</small></small></em>
 
--
+
+
 
 ---
 
@@ -51,19 +51,22 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/kuressaare/03_creative_mood.jpg" />
-
--
-
 <f-image src="assets/kuressaare/01_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/kuressaare/04_creative_mood.jpg" />
+<f-image src="assets/kuressaare/03_creative_mood.jpg" />
 
 -
 
-<em>Kick-off meeting in Kuressaare, Estonia, Dec 2016</em>
+<f-image src="assets/kuressaare/05_creative_mood.jpg" style="background-position:left top" />
+
+-
+
+<em>Kick-off meeting in Kuressaare, Estonia, December 2016</em>
+
+
+
 
 
 ---
@@ -77,9 +80,10 @@ Erasmus +
 
 -
 
-## <em>Background research and pedagogy <br> in Helsinki, Finland, February 2017</em>
+## <em>Background research and pedagogy workshop <br> <small><small>Helsinki, Finland, February 2017</small></small></em>
 
--
+
+
 
 ---
 
@@ -93,25 +97,7 @@ Erasmus +
 
 -
 
-<f-image src="assets/helsinki/02_creative_mood.jpg" />
-
--
-
 <f-image src="assets/helsinki/03_creative_mood.jpg" />
-
--
-
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/helsinki/04_creative_mood.jpg" />
 
 -
 
@@ -119,11 +105,11 @@ Erasmus +
 
 -
 
-<f-image src="assets/helsinki/07_creative_mood.jpg" />
+<em>Background research and pedagogy workshop in Helsinki, Finland, February 2017</em>
 
--
 
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
+
+
 
 ---
 
@@ -133,7 +119,7 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/helsinki/08_creative_mood.jpg" />
+<f-image src="assets/helsinki/12_creative_mood.jpg" />
 
 -
 
@@ -145,7 +131,11 @@ Erasmus +
 
 -
 
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
+<em>Background research and pedagogy workshop in Helsinki, Finland, February 2017</em>
+
+
+
+
 
 ---
 
@@ -155,29 +145,11 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/helsinki/11_creative_mood.jpg" />
+<f-image src="assets/helsinki/13_creative_mood.jpg" style="background-position:right bottom" />
 
 -
 
-<f-image src="assets/helsinki/12_creative_mood.jpg" />
-
--
-
-<f-image src="assets/helsinki/13_creative_mood.jpg" />
-
--
-
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
-
----
-
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/helsinki/14_creative_mood.jpg" />
+<f-image src="assets/helsinki/14_creative_mood.jpg" style="background-position:70% center" />
 
 -
 
@@ -185,54 +157,52 @@ Erasmus +
 
 -
 
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
+<em>Background research and pedagogy workshop in Helsinki, Finland, February 2017</em>
 
----
 
-| 1
-| 2
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
 
-<f-image src="assets/helsinki/16_creative_mood.jpg" />
 
--
-
-<em>Background research and pedagogy in Helsinki, Finland, February 2017</em>
 
 ---
 
 | background: assets/piraeus/01_creative_mood.jpg
+| tint: 0.5
 | theme: dark
-| 1 1
-| 2 3
+| 1 
+| 2 
 | rows: 1fr auto
 | section: Piraeus, Greece, May-June 2017
 
 -
 
-## <em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+## <em>Brainstorming workshop<br><small><small>Piraeus, Greece, May-June 2017</small></small></em>
 
--
+
+
+
+
 
 ---
 
-| 1 2 2
-| 3 3 3
+| 1 2
+| 3 3
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 2fr
 | style: text-align: right;
+
+<f-image src="assets/piraeus/10_creative_mood.jpg" />
+
+-
 
 <f-image src="assets/piraeus/02_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/piraeus/03_creative_mood.jpg" />
+<em>Brainstorming workshop in Piraeus, Greece, May-June 2017</em>
 
--
 
-<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
+
 
 ---
 
@@ -246,51 +216,19 @@ Erasmus +
 
 -
 
-<f-image src="assets/piraeus/05_creative_mood.jpg" />
-
--
-
 <f-image src="assets/piraeus/06_creative_mood.jpg" />
 
 -
 
-<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
-
----
-
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/piraeus/08_creative_mood.jpg" />
+<f-image src="assets/piraeus/05_creative_mood.jpg" style="background-position:20% center" />
 
 -
 
-<f-image src="assets/piraeus/07_creative_mood.jpg" />
+<em>Brainstorming workshop in Piraeus, Greece, May-June 2017</em>
 
--
 
-<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
 
----
 
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/piraeus/10_creative_mood.jpg" />
-
--
-
-<f-image src="assets/piraeus/11_creative_mood.jpg" />
-
--
-
-<em>Brainstorming in Piraeus, Greece, May-June 2017</em>
 
 ---
 
@@ -303,9 +241,11 @@ Erasmus +
 
 -
 
-## <em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
+## <em>Initial ideas’ improvement <br><small><small>Middlesbrough, UK, October 2017</small></small></em>
 
 -
+
+
 
 ---
 
@@ -315,19 +255,21 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/middlesbrough/02_creative_mood.jpg" />
+<f-image src="assets/middlesbrough/08_creative_mood.jpg" style="background-position: 40% center" />
 
 -
 
-<f-image src="assets/middlesbrough/03_creative_mood.jpg" />
+<f-image src="assets/middlesbrough/02_creative_mood.jpg" style="background-position: 27% center" />
 
 -
 
-<f-image src="assets/middlesbrough/04_creative_mood.jpg" />
+<f-image src="assets/middlesbrough/10_creative_mood.jpg" style="background-position: 70% center" />
 
 -
 
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
+<em>Initial ideas’ improvement in Middlesbrough, UK,  October 2017</em>
+
+
 
 ---
 
@@ -337,73 +279,7 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/middlesbrough/05_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/06_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/07_creative_mood.jpg" />
-
--
-
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/middlesbrough/08_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/09_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/10_creative_mood.jpg" />
-
--
-
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/middlesbrough/11_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/12_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/13_creative_mood.jpg" />
-
--
-
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/middlesbrough/14_creative_mood.jpg" />
+<f-image src="assets/middlesbrough/19_creative_mood.jpg" />
 
 -
 
@@ -415,52 +291,10 @@ Erasmus +
 
 -
 
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/middlesbrough/17_creative_mood.jpg" />
+<em>Initial ideas’ improvement in Middlesbrough, UK, October 2017</em>
 
 
--
 
-<f-image src="assets/middlesbrough/19_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/23_creative_mood.jpg" />
-
--
-
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/middlesbrough/20_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/21_creative_mood.jpg" />
-
--
-
-<f-image src="assets/middlesbrough/22_creative_mood.jpg" />
-
--
-
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
 
 ---
 
@@ -474,7 +308,12 @@ Erasmus +
 
 -
 
-<em>Initial ideas’ improvement in Middlesbrough, October 2017</em>
+<em>Initial ideas’ improvement in Middlesbrough, UK, October 2017</em>
+
+
+
+
+
 
 ---
 
@@ -484,14 +323,19 @@ Erasmus +
 | 2 3
 | rows: 1fr auto
 | section: Novo Mesto, Slovenia, March 2018
+| style: background-position: 100% center
 
 -
 
-## <em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
+## <em>E-learning and media workshop<br><small><small>Novo Mesto, Slovenia, March 2018</small></small></em>
 
 -
 
 ---
+
+
+
+
 
 | 1 2 3
 | 4 4 4
@@ -499,29 +343,12 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/novomesto/02_creative_mood.jpg" />
+
+<f-image src="assets/novomesto/08_creative_mood.jpg" style="background-position:15% center" />
 
 -
 
-<f-image src="assets/novomesto/03_creative_mood.jpg" />
-
--
-
-<f-image src="assets/novomesto/04_creative_mood.jpg" />
-
--
-
-<em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/novomesto/05_creative_mood.jpg" />
+<f-image src="assets/novomesto/03_creative_mood.jpg" style="background-position:left center" />
 
 -
 
@@ -529,11 +356,7 @@ Erasmus +
 
 -
 
-<f-image src="assets/novomesto/07_creative_mood.jpg" />
-
--
-
-<em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
+<em>E-learning and media workshop in Novo Mesto, Slovenia, March 2018</em>
 
 ---
 
@@ -541,13 +364,14 @@ Erasmus +
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 2fr 1fr
 | style: text-align: right;
 
-<f-image src="assets/novomesto/08_creative_mood.jpg" />
+<f-image src="assets/novomesto/12_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/novomesto/09_creative_mood.jpg" />
+<f-image src="assets/novomesto/09_creative_mood.jpg" style="background-position:50% 0" />
 
 -
 
@@ -555,160 +379,46 @@ Erasmus +
 
 -
 
-<em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
+<em>E-learning and media workshop in Novo Mesto, Slovenia, March 2018</em>
 
 ---
 
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
 
-<f-image src="assets/novomesto/11_creative_mood.jpg" />
 
--
 
-<f-image src="assets/novomesto/12_creative_mood.jpg" />
 
--
 
-<f-image src="assets/novomesto/13_creative_mood.jpg" />
-
--
-
-<em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
-
----
-
-| 1 
-| 2
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/novomesto/14_creative_mood.jpg" />
-
--
-
-<em>E-learning and media in Novo Mesto, Slovenia, March 2018</em>
-
----
 
 | background: assets/amsterdam/01_creative_mood.jpg
 | theme: dark
 | 1 1
-| 2 3
+| 2 2
 | rows: 1fr auto
-| section: Amsterdam, the Netherlands, May 201
+| section: Amsterdam, the Netherlands, May 2018
+| style: background-position: center 33%
 
 -
 
-## <em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
-
--
+## <em>Building and testing e-learning projects<br><small><small>Amsterdam, the Netherlands, May 2018</small></small></em>
 
 ---
+
+
+
+
+
 
 | 1 2 3
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
 | style: text-align: right;
-
-<f-image src="assets/amsterdam/02_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/03_creative_mood.jpg" />
-
--
 
 <f-image src="assets/amsterdam/04_creative_mood.jpg" />
 
 -
 
-<em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
 <f-image src="assets/amsterdam/05_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/06_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/07_creative_mood.jpg" />
-
--
-
-<em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/amsterdam/08_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/09_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/10_creative_mood.jpg" />
-
--
-
-<em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/amsterdam/11_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/12_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/13_creative_mood.jpg" />
-
--
-
-<em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/amsterdam/14_creative_mood.jpg" />
-
--
-
-<f-image src="assets/amsterdam/15_creative_mood.jpg" />
 
 -
 
@@ -726,21 +436,32 @@ Erasmus +
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/amsterdam/17_creative_mood.jpg" />
+
+<f-image src="assets/amsterdam/14_creative_mood.jpg" style="background-position:60% center"  />
 
 -
 
-<f-image src="assets/amsterdam/18_creative_mood.jpg" />
+<f-image src="assets/amsterdam/07_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/amsterdam/19_creative_mood.jpg" />
+<f-image src="assets/amsterdam/18_creative_mood.jpg" style="background-position:88% 75%" />
+
 
 -
 
 <em>Building and testing e-learning projects in Amsterdam, the Netherlands, May 2018</em>
 
 ---
+
+
+
+
+
+
+
+
+
 
 | background: assets/trento/01_creative_mood.jpg
 | theme: dark
@@ -751,63 +472,28 @@ Erasmus +
 
 -
 
-## <em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
+## <em>Introduction to web platform Fachwerk and testing<br><small><small>Trento, Italy, October 2018</small></small></em>
 
 -
 
 ---
 
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
 
-<f-image src="assets/trento/02_creative_mood.jpg" />
 
--
 
-<f-image src="assets/trento/03_creative_mood.jpg" />
-
--
-
-<f-image src="assets/trento/04_creative_mood.jpg" />
-
--
-
-<em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
-
----
 
 | 1 2 3
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 1fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/trento/05_creative_mood.jpg" />
+<f-image src="assets/trento/14_creative_mood.jpg" />
 
 -
 
-<f-image src="assets/trento/06_creative_mood.jpg" />
-
--
-
-<f-image src="assets/trento/07_creative_mood.jpg" />
-
--
-
-<em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/trento/08_creative_mood.jpg" />
+<f-image src="assets/trento/10_creative_mood.jpg" style="background-position:75% center" />
 
 -
 
@@ -815,11 +501,11 @@ Erasmus +
 
 -
 
-<f-image src="assets/trento/10_creative_mood.jpg" />
-
--
-
 <em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
+
+
+
+
 
 ---
 
@@ -827,31 +513,16 @@ Erasmus +
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 1fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/trento/11_creative_mood.jpg" />
+
+
+<f-image src="assets/trento/06_creative_mood.jpg" style="background-position:25% center" />
 
 -
 
-<f-image src="assets/trento/12_creative_mood.jpg" />
-
--
-
-<f-image src="assets/trento/13_creative_mood.jpg" />
-
--
-
-<em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/trento/14_creative_mood.jpg" />
+<f-image src="assets/trento/04_creative_mood.jpg" />
 
 -
 
@@ -859,26 +530,26 @@ Erasmus +
 
 -
 
-<f-image src="assets/trento/16_creative_mood.jpg" />
-
--
-
 <em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
 
 ---
 
+
+
+
+
+
 | background: assets/braganca/01_creative_mood.jpg
 | theme: dark
-| 1 1
-| 2 3
+| 1 
+| 2 
 | rows: 1fr auto
 | section: Braganca, Portugal, March 201
 
 -
 
-## <em>Final improvements in Braganca, Portugal, March 2019</em>
+## <em>Final improvements and testing<br><small><small>Braganca, Portugal, March 2019</small></small></em>
 
--
 
 ---
 
