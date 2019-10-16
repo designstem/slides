@@ -14,7 +14,7 @@
 
 <center style="flex-direction: column">
 
-## <big>DesignSTEM: e-tools for the integrated <br> education of design and STEM<big/>
+## <big>DesignSTEM: e-tools for the integrated <br> education of design and STEM</big>
 
 <var>The Creative and Co-operative Modus Operandi</var>
 
@@ -503,11 +503,12 @@
 
 <em>Introduction to web platform Fachwerk and testing in Trento, Italy, October 2018</em>
 
-
-
-
-
 ---
+
+
+
+
+
 
 | 1 2 3
 | 4 4 4
@@ -550,38 +551,24 @@
 
 ## <em>Final improvements and testing<br><small><small>Braganca, Portugal, March 2019</small></small></em>
 
-
 ---
+
+
+
 
 | 1 2 3
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 2fr 1fr
 | style: text-align: right;
+
+
+<f-image src="assets/braganca/04_creative_mood.jpg" style="--image-position:80% center" />
+
+-
 
 <f-image src="assets/braganca/02_creative_mood.jpg" />
-
--
-
-<f-image src="assets/braganca/03_creative_mood.jpg" />
-
--
-
-<f-image src="assets/braganca/04_creative_mood.jpg" />
-
--
-
-<em>Final improvements in Braganca, Portugal, March 2019</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/braganca/05_creative_mood.jpg" />
 
 -
 
@@ -589,13 +576,12 @@
 
 -
 
-<f-image src="assets/braganca/07_creative_mood.jpg" />
-
--
-
 <em>Final improvements in Braganca, Portugal, March 2019</em>
 
 ---
+
+
+
 
 | 1 2 3
 | 4 4 4
@@ -603,37 +589,16 @@
 | rows: 1fr auto
 | style: text-align: right;
 
-<f-image src="assets/braganca/08_creative_mood.jpg" />
+<f-image src="assets/braganca/08_creative_mood.jpg" style="--image-position:30% center" />
+
 
 -
 
-<f-image src="assets/braganca/09_creative_mood.jpg" />
+<f-image src="assets/braganca/14_creative_mood.jpg" style="--image-position:30% center" />
 
 -
 
-<f-image src="assets/braganca/10_creative_mood.jpg" />
-
--
-
-<em>Final improvements in Braganca, Portugal, March 2019</em>
-
----
-
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/braganca/11_creative_mood.jpg" />
-
--
-
-<f-image src="assets/braganca/12_creative_mood.jpg" />
-
--
-
-<f-image src="assets/braganca/13_creative_mood.jpg" />
+<f-image src="assets/braganca/03_creative_mood.jpg" />
 
 -
 
@@ -641,58 +606,27 @@
 
 ---
 
-| 1 2 3
-| 4 4 4
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
 
-<f-image src="assets/braganca/14_creative_mood.jpg" />
 
--
 
-<f-image src="assets/braganca/15_creative_mood.jpg" />
 
--
 
-<f-image src="assets/braganca/16_creative_mood.jpg" />
 
--
 
-<em>Final improvements in Braganca, Portugal, March 2019</em>
 
----
 
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
-
-<f-image src="assets/braganca/17_creative_mood.jpg" />
-
--
-
-<f-image src="assets/braganca/18_creative_mood.jpg" />
-
--
-
-<em>Final improvements in Braganca, Portugal, March 2019</em>
-
----
 
 | background: assets/frankfurt/01_creative_mood.jpg
 | theme: dark
-| 1 1
-| 2 3
+| 1
+| 2
 | rows: 1fr auto
 | section: Frankfurt, Germany, May 2019
 
 -
 
-## <em>Dissemination and final reporting meeting Frankfurt, Germany, May 2019</em>
+## <em>Dissemination and final reporting meeting<br><small><small>Frankfurt, Germany, May 2019</small></small></em>
 
--
 
 ---
 
@@ -700,9 +634,14 @@
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 2fr 2fr 1fr
 | style: text-align: right;
 
-<f-image src="assets/frankfurt/02_creative_mood.jpg" />
+<f-image src="assets/frankfurt/09_creative_mood.jpg" style="--image-position:10% center" />
+
+-
+
+<f-image src="assets/frankfurt/02_creative_mood.jpg" style="--image-position:80% center" />
 
 -
 
@@ -710,11 +649,10 @@
 
 -
 
-<f-image src="assets/frankfurt/04_creative_mood.jpg" />
-
--
-
 <em>Dissemination and final reporting meeting Frankfurt, Germany, May 2019</em>
+
+
+
 
 ---
 
@@ -722,17 +660,18 @@
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 3fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/frankfurt/05_creative_mood.jpg" />
+<f-image src="assets/frankfurt/05_creative_mood.jpg" style="--image-position:15% center" />
 
 -
 
-<f-image src="assets/frankfurt/06_creative_mood.jpg" />
+<f-image src="assets/frankfurt/10_creative_mood.jpg" style="--image-position:10% 0%" />
 
 -
 
-<f-image src="assets/frankfurt/08_creative_mood.jpg" />
+<f-image src="assets/frankfurt/04_creative_mood.jpg" style="--image-position:80% center; transform:scaleX(-1)" />
 
 -
 
@@ -740,26 +679,12 @@
 
 ---
 
-| 1 2
-| 3 3
-| theme: dark
-| rows: 1fr auto
-| style: text-align: right;
 
-<f-image src="assets/frankfurt/09_creative_mood.jpg" />
 
--
 
-<f-image src="assets/frankfurt/10_creative_mood.jpg" />
 
--
-
-<em>Dissemination and final reporting meeting Frankfurt, Germany, May 2019</em>
-
----
-
-| background: assets/middlesbrough/GRUPP.jpg
-| style: background-size: contain; background-position: center; text-align: center;
+| background: assets/braganca/00_group.jpg
+| style: background-size: cover; background-position: center; text-align: center;
 | theme: dark
 
-# <var>Til' next time!</var>
+# Til' next time!

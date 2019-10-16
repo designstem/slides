@@ -11,13 +11,13 @@
 
 <f-logo />
   
-  <!-- <small>e-tools for the integrated education of design and STEM</small> -->
+<small>e-tools for the integrated education of design and STEM</small>
 
 ## main points
 
 -
 
-<f-image src="https://lh3.googleusercontent.com/yd243S5A1FdbEMpcOqFrWPhoTkJxdY2Tuph1TfTQDKaD7UOW0janCrfW4geW2JscOYFBVOVcJSgKEzczVTOfX86brdVVFwevDqxWu_5lRGzaUYcliyGfY5DagH77SQP4RQCPSJ-U=w800-h600-no" />
+<!-- <f-image src="https://lh3.googleusercontent.com/yd243S5A1FdbEMpcOqFrWPhoTkJxdY2Tuph1TfTQDKaD7UOW0janCrfW4geW2JscOYFBVOVcJSgKEzczVTOfX86brdVVFwevDqxWu_5lRGzaUYcliyGfY5DagH77SQP4RQCPSJ-U=w800-h600-no" /> -->
 
 -
 
@@ -55,53 +55,335 @@ https://www.dropbox.com/s/11thlljyhzs4kat/00_background-whiteboard.jpg?raw=1
 
 ---
 
-# Problem
+| theme: dark
+| background: https://www.dropbox.com/s/c2hjh7czly99mhm/01_problem.jpg?raw=1
+| style: background-position: center 80%
 
-- skills shortages in <var>STEM</var> fields’ labour market
-- lack of attractive, user-friendly, real-life STEM <var>learning and teaching resources</var>
+<div class="bottom">
+<div>
+    
+  <h1 class="text-background">
+    Problem
+  </h1>
+  <br>
+  <h3 class="text-background">skills shortages in <var>STEM</var> fields’ labour market</h3>
+  <h3 class="text-background">lack of attractive, user-friendly, real-life STEM <var>learning and teaching resources</var></h3>
 
----
-
-# Strategic aims
-
-- promote a <var>positive image of STEM</var>
-- improve school based STEM teaching and learning
-- promote the <var>use of ICT</var> to increase the <var>quality</var> and <var>relevance</var> of open STEM education
-- support <var>integration within education</var>; synergies with research and innovation activities
-
----
-
-# Tactical goals
-
-- raise the attractiveness of STEM by integrating it with design education, i.e developing functional, sustainable and aesthetic goods, services, processes, messages and environments
-- devise, design and disseminate integrated design and STEM e-learning resources
+</div>
+</div>
 
 ---
 
-# Target groups
 
-- design students aged 15-25 in vocational schools and colleges + teachers
-- secondary and vocational school students aged 15-18 studying STEM subjects + teachers
+| section: Problem
+| height: 100vh
+| theme: light
+| padding: 0
+| cols: 1fr 2fr
+| 1 2
+
+
+<section class="vertical-center">
+
+  ## Problem
+  
+  skills shortages in <var>STEM</var> fields’ labour market
+  &ndash;
+  lack of attractive, user-friendly, real-life STEM <var>learning</var> and <var>teaching resources</var>
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/c2hjh7czly99mhm/01_problem.jpg?raw=1" style="--image-min-height:60vh; --image-position:center 33%" />
 
 ---
 
-# Result
 
-- ca <var>15 long-term integrated design and STEM projects</var> for schools
-- composed of ca <var>75 short-term exercises and tasks</var> for design and STEM lessons
-- on an open source, no-sign-in, free web platform - <var>Fachwerk</var> - designed and coded specifically for creating interactive, user friendly, attractive e-learning objects, e.g dynamic mathematics, 3D models, generative design, VR-experiences and many other code-based interactive elements etc that can easily be changed, adapted and shared online including
-  - ca 115 interactive components for teachers and students to build custom-made projects
-  - plus several interactive "playgrounds", where components can be mixed and matched and experimented with
-  - plus 5 popular code libraries accessible from the components
+
+
+| section: Strategic aims
+| theme: light
+| padding: 0
+| cols: 1fr 2fr
+| 1 2
+
+<section class="vertical-center">
+  
+  ## Strategic aims<sup class="super"><var>1/4</var></sup>
+
+  promote a <var>positive image of STEM</var>
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/3978xkazhztukrg/02_strategic-aims_1.jpg?raw=1&&id=2-1" style="--image-min-height:60vh; --image-position:75% center" />
 
 ---
 
-Really free to use for anyone anywhere in the world? Yes! Check it out:
-https://designstem.github.io/projects/
+
+
+
+
+
+| theme: light
+| padding: 0
+| cols: 1fr 2fr
+| 1 2
+
+
+<section class="vertical-center">
+  
+  ## Strategic aims<sup class="super"><var>2/4</var></sup>
+
+  improve <var>school based</var> STEM teaching and learning
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/3i85uxn53m8fl0g/02_strategic-aims_2.jpg?raw=1" style="--image-min-height:80vh; --image-position:center 0; transform:scaleX(-1)" />
 
 ---
 
-# Partners?
+
+
+
+| theme: light
+| padding: 0
+| cols: 1fr 2fr
+| 1 2
+
+
+<section class="vertical-center">
+  
+  ## Strategic aims<sup class="super"><var>3/4</var></sup>
+
+  promote the <var>use of ICT</var> to increase the <var>quality</var> and <var>relevance</var> of open STEM education
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/aryh6de2rsuw8m3/02_strategic-aims_3.jpg?raw=1" style="--image-min-height:80vh; --image-position:center 0; " />
+
+---
+
+
+
+| theme: light
+| padding: 0
+| cols: 1fr 2fr
+| 1 2
+
+
+<section class="vertical-center">
+  
+  ## Strategic aims<sup class="super"><var>4/4</var></sup>
+
+  support <var>integration within education</var>; synergies with <var>research</var> and <var>innovation</var> activities
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/c8zq0uzkzso48rd/02_strategic-aims_4.jpg?raw=1" style="--image-min-height:80vh; --image-position:30% 0; " />
+
+---
+
+
+
+
+
+| section: Tactical goals
+| padding: 0
+| cols: 1fr 2fr
+
+<section class="vertical-center">
+
+## Tactical goals
+
+raise the attractiveness of STEM by integrating it with design education, i.e <var>developing functional</var>, <var>sustainable</var> and <var>aesthetic</var> goods, services, processes, messages and environments
+&ndash;
+<var>devise</var>, <var>design</var> and <var>disseminate</var> integrated design and STEM e-learning resources
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/x4hx0ynt80wp6zw/03_tactical-goals.jpg?raw=1" style="--image-min-height:80vh; --image-position:center 0; " />
+
+---
+
+
+
+
+
+
+| section: Target groups
+| padding: 0
+| cols: 1fr 2fr
+
+<section class="vertical-center">
+
+## Target groups
+
+<var>design students</var> aged 15-25 in vocational schools and colleges + <var>teachers</var>
+&ndash;
+<var>secondary and vocational school students</var> aged 15-18 studying STEM subjects + <var>teachers</var>
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/w70ag4h7imt5d88/04_target-group.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+
+| section: Results
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>1/6</var></sup>
+
+ca <var>15</var> long-term integrated <var>design and STEM projects</var> for schools
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/isok0dt9u9osdfc/00_background-testing_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>2/6</var></sup>
+
+composed of ca <var>75</var> short-term <var>exercises and tasks</var> for design and STEM lessons
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/kg5r60dr037gs0r/00_background-sketches_3.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>3/6</var></sup>
+
+on an open source, no-sign-in, free <var>web platform &ndash; Fachwerk</var>
+
+<small>
+
+*Designed and coded specifically for creating interactive, user friendly, attractive e-learning objects, e.g dynamic mathematics, 3D models, generative design, VR-experiences and many other code-based interactive elements etc that can easily be changed, adapted and shared online*
+
+</small>
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/hd1xb1skxlvakbp/05_designstem-concept_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>4/6</var></sup>
+
+ca 115 interactive components for teachers and students to build custom-made projects
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/hd1xb1skxlvakbp/05_designstem-concept_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>5/6</var></sup>
+
+plus several interactive "playgrounds", where components can be mixed and matched and experimented with
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/hd1xb1skxlvakbp/05_designstem-concept_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+
+| padding: 0
+| cols: 1fr 2fr
+
+
+<section class="vertical-center">
+
+## Result<sup class="super"><var>6/6</var></sup>
+
+plus 5 popular code libraries accessible from the components
+
+</section>
+
+-
+
+<f-image src="https://www.dropbox.com/s/hd1xb1skxlvakbp/05_designstem-concept_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:80% 0%; " />
+
+---
+
+
+
+
+
+
+| section: Partners
+
+## Partners
 
 - Faculty of Information Studies, Slovenia 
 - Gutenberg School, Germany
@@ -116,7 +398,10 @@ https://designstem.github.io/projects/
 
 ---
 
-# More info?
+
+| section: More info
+
+## More info
 
 - DesignSTEM Initiator and Project Manager: Merit Karise, design department of Kuressaare Regional Training Centre, Estonia merit.karise@ametikool.ee
 - DesignSTEM Head Pedagogical Consultant: PhD Jaakko Turkka, University of Helsinki, LUMA Centre, Finland jaakko.turkka@helsinki.fi
