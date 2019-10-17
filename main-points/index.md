@@ -469,11 +469,74 @@ plus several <var>interactive "playgrounds"</var>, where components can be mixed
 
 
 | section: More info
+| padding: 0
+| gap: 0
+| cols: 1fr 2fr 2fr 2fr
+| rows: 1fr auto
+| 1 2 4 6
+| 1 3 5 7
 
-## More info
+<section class="vertical-center">
+  
+  ## More info
+  
+  <f-next />
 
-- DesignSTEM Initiator and Project Manager: Merit Karise, design department of Kuressaare Regional Training Centre, Estonia merit.karise@ametikool.ee
-- DesignSTEM Head Pedagogical Consultant: PhD Jaakko Turkka, University of Helsinki, LUMA Centre, Finland jaakko.turkka@helsinki.fi
-- Fachwerk Lead Developer: Kristjan Jansen, design department of Kuressaare Regional Training Centre, Estonia kristjan.jansen@gmail.com
+</section>
 
-<f-next />
+-
+
+<f-image src="https://www.dropbox.com/s/00m4ia9nx7pvgpe/07_merit-karise.jpg?raw=1" style="--image-position:70% 30%; --image-size:cover 120%;"  />
+
+-
+
+<div style="padding:2vh 2vh 3vh 0">
+
+  #### Merit Karise
+  
+  ##### DesignSTEM Initiator and Project Manager 
+  
+  design department of Kuressaare Regional Training Centre, Estonia 
+  merit.karise@ametikool.ee
+
+</div>
+
+-
+
+<f-image src="https://www.dropbox.com/s/njfig549m97j5vb/07_jaakko-turkka.jpg?raw=1" style="--image-position:80% 30%;" />
+
+-
+
+<div style="padding:2vh 2vh 3vh 0">
+
+#### PhD Jaakko Turkka
+
+##### DesignSTEM Head Pedagogical Consultant 
+
+University of Helsinki, LUMA Centre, Finland 
+jaakko.turkka@helsinki.fi
+
+</div>
+
+-
+
+<f-image src="https://www.dropbox.com/s/46saay0ra0pxned/07_kristjan-jansen.jpg?raw=1" style="--image-position:30% 30%;"  />
+
+-
+
+<div style="padding:2vh 2vh 3vh 0">
+
+#### Kristjan Jansen
+
+##### Fachwerk Lead Developer
+
+design department of Kuressaare Regional Training Centre, Estonia 
+kristjan.jansen@gmail.com
+
+</div>
+
+---
+
+
+
+asdas
