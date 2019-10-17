@@ -1,5 +1,5 @@
-// import { fachwerk, Css } from "https://designstem.github.io/fachwerk/fachwerk.js";
-import { fachwerk, Css, send, goto, get } from "//127.0.01:5502/fachwerk.js";
+import { fachwerk, Css, send, goto, get } from "https://designstem.github.io/fachwerk/fachwerk.js";
+// import { fachwerk, Css, send, goto, get } from "//127.0.01:5502/fachwerk.js";
 
 const FLogo = {
   mixins: [Css],
@@ -53,6 +53,7 @@ fachwerk({
   title: "Main points",
   components: { FLogo, FNext, FTarget, FLetter },
   type: "slides",
+  typebutton: "none",
   edit: "none",
   style: { "--content-editor-scale": 1.3 }
 });
