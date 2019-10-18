@@ -1,35 +1,25 @@
-| chapter: Introduction
-| section: DesignSTEM logo animation
-| height: 100vh
-
-<video autoplay loop v-on:click="goto('start')">
-    <source src="assets/intro.mp4"
-            type="video/mp4">
-
-    Sorry, your browser doesn't support embedded videos.
-</video>
-
-<div style="position:fixed; bottom:5vh; text-align:center; width: 100%;">
-    <button v-on:click="goto('start')" style="border:none;">Continue</button>
-</div>
-
----
-
 
 
 | id: start
 | section: Designstem Erasmus +
+| theme: dark
+| background: assets/background.jpg
+| tint: 0.85
 | height: 100vh
 
 <center style="flex-direction: column; padding: 0 15vw">
 
-## <big>DesignSTEM: e-tools for the integrated education of design and STEM</big>
+<f-logo />
+
+### *e-tools for the integrated education of design and STEM*
 
 <var>The Creative and Co-operative Modus Operandi</var>
 
+&nbsp;
+
 <div style="display: flex">
-    <img src="assets/designstem_logo.svg" style="width: 200px; margin-left: 50px;"> 
-    <img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="width: 240px;">
+    <!-- <img src="assets/designstem_logo.svg" style="width: 200px; margin-left: 50px;">  -->
+    <img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="width: 240px; background:white;">
 </div>
 
 </center>
@@ -41,19 +31,41 @@
 
 
 
-| id: suva
-| background: assets/kuressaare/02_creative_mood.jpg
-| backgroundPosition: 100% 50%
-| theme: dark
-| 1 
-| 2 
-| rows: 1fr auto
 | chapter: Workshops
 | section: Kuressaare, Estonia, Dec 2016
+| background: assets/kuressaare/kuressaare.jpg
+| backgroundposition: 50% 50%
+| theme: dark
+| 1 
+| 2
+| 3 
+| rows: 1fr auto 6vh
 
 -
 
-## <em>Kick-off meeting <br> <small><small>Kuressaare, Estonia, December 2016</small></small></em>
+## *Kuressaare, Estonia<br><small><small>December 2016</small></small>*
+
+-
+
+---
+
+
+
+
+| background: assets/kuressaare/02_creative_mood.jpg
+| backgroundposition: 100% 50%
+| tint: 0.4
+| theme: dark
+| 1 
+| 2 
+| 3
+| rows: 1fr auto 6vh
+
+-
+
+## *Kick-off meeting*
+
+-
 
 ---
 
@@ -65,10 +77,10 @@
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
-| cols: 1fr 1fr 1fr
+| cols: 1fr 2fr 1fr
 | style: text-align: right;
 
-<f-image src="assets/kuressaare/01_creative_mood.jpg" style="--image-position:60% center" />
+<f-image src="assets/kuressaare/kuressaare-torsten.jpg" style="--image-position:60% center" />
 
 -
 
@@ -76,7 +88,7 @@
 
 -
 
-<f-image src="assets/kuressaare/05_creative_mood.jpg" style="background-position:left top" />
+<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center" />
 
 -
 
@@ -88,17 +100,42 @@
 
 
 
-| background: assets/helsinki/06_creative_mood.jpg
-| backgroundPosition: 100% 50%
-| theme: dark
-| 1 1
-| 2 3
-| rows: 1fr auto
 | section: Helsinki, Finland, February 2017
+| background: assets/helsinki/helsinki.jpg
+| backgroundposition: 50% 50%
+| theme: dark
+| 1 
+| 2 
+| 3
+| rows: 1fr auto 6vh
 
 -
 
-## <em>Background research and pedagogy workshop <br> <small><small>Helsinki, Finland, February 2017</small></small></em>
+## *Helsinki, Finland<br><small><small>February 2017</small></small>*
+
+-
+
+---
+
+
+
+
+
+| background: assets/helsinki/06_creative_mood.jpg
+| backgroundposition: 100% 50%
+| theme: dark
+| 1 1
+| 2 3
+| 4 4
+| rows: 1fr auto 6vh
+
+-
+
+## *Background research and pedagogy workshop*
+
+-
+
+-
 
 ---
 
@@ -160,17 +197,37 @@
 
 
 
-| background: assets/piraeus/01_creative_mood.jpg
-| tint: 0.5
+| background: assets/piraeus/greece.jpg
 | theme: dark
 | 1 
 | 2 
-| rows: 1fr auto
+| 3
+| rows: 1fr auto 6vh
 | section: Piraeus, Greece, May-June 2017
 
 -
 
-## <em>Brainstorming workshop<br><small><small>Piraeus, Greece, May-June 2017</small></small></em>
+## *Piraeus, Greece<br><small><small>May-June 2017</small></small>*
+
+-
+
+---
+
+
+
+
+| background: assets/piraeus/03_creative_mood.jpg
+| theme: dark
+| 1 
+| 2 
+| 3
+| rows: 1fr auto 6vh
+
+-
+
+## *Brainstorming workshop*
+
+-
 
 ---
 
@@ -229,16 +286,39 @@
 
 
 
-| background: assets/middlesbrough/01_creative_mood.jpg
-| theme: dark
-| 1 1
-| 2 3
-| rows: 1fr auto
+
 | section: Middlesbrough, UK, October 2017
+| background: assets/middlesbrough/middlesbrough.jpg
+| tint: 0.5
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
 
 -
 
-## <em>Initial ideas’ improvement <br><small><small>Middlesbrough, UK, October 2017</small></small></em>
+## *Middlesbrough, UK<br><small><small>October 2017</small></small>*
+
+-
+
+---
+
+
+
+
+| background: assets/middlesbrough/16_creative_mood.jpg
+| backgrondposition: 75% 10%
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
+| cols: 40vw
+
+-
+
+## *Presentation and improvement of initial ideas*
 
 -
 
@@ -252,9 +332,10 @@
 | 4 4 4
 | theme: dark
 | rows: 1fr auto
+| cols: 1fr 3fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/middlesbrough/08_creative_mood.jpg" style="background-position: 40% center" />
+<f-image src="assets/middlesbrough/10_creative_mood.jpg" style="background-position: 33% center" />
 
 -
 
@@ -262,11 +343,11 @@
 
 -
 
-<f-image src="assets/middlesbrough/10_creative_mood.jpg" style="background-position: 70% center" />
+<f-image src="assets/middlesbrough/10_creative_mood.jpg" style="background-position: 90% center" />
 
 -
 
-<em>Initial ideas’ improvement in Middlesbrough, UK,  October 2017</em>
+<em>Presentation and improvement of initial ideas in Middlesbrough, UK,  October 2017</em>
 
 ---
 
@@ -289,11 +370,11 @@
 
 -
 
-<f-image src="assets/middlesbrough/16_creative_mood.jpg" />
+<f-image src="assets/middlesbrough/08_creative_mood.jpg" style="background-position: 50% center" />
 
 -
 
-<em>Initial ideas’ improvement in Middlesbrough, UK, October 2017</em>
+<em>Presentation and improvement of initial ideas in Middlesbrough, UK, October 2017</em>
 
 ---
 
@@ -301,18 +382,38 @@
 
 
 
-| background: assets/novomesto/01_creative_mood.jpg
-| backgroundPosition: 100% 50%
-| theme: dark
-| 1 1
-| 2 3
-| rows: 1fr auto
 | section: Novo Mesto, Slovenia, March 2018
-| style: background-position: 100% center
+| background: assets/novomesto/01_creative_mood.jpg
+| backgroundposition: 100% 50%
+| theme: dark
+| 1
+| 2 
+| 3
+| rows: 1fr auto 6vh
 
 -
 
-## <em>E-learning and media workshop<br><small><small>Novo Mesto, Slovenia, March 2018</small></small></em>
+## *Novo Mesto, Slovenia<br><small><small>March 2018</small></small>*
+
+-
+
+---
+
+
+
+
+| background: assets/novomesto/cover.jpg
+| backgroundposition: 70% 50%
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
+| cols: 40vw
+
+-
+
+## *E-learning and media workshop*
 
 -
 
@@ -377,17 +478,42 @@
 
 
 
-| background: assets/amsterdam/01_creative_mood.jpg
-| backgroundPosition: 50% 33%
-| theme: dark
-| 1 1
-| 2 2
-| rows: 1fr auto
+
 | section: Amsterdam, the Netherlands, May 2018
+| background: assets/amsterdam/amsterdam.jpg
+| backgroundposition: 80% 50%
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
 
 -
 
-## <em>Building and testing e-learning projects<br><small><small>Amsterdam, the Netherlands, May 2018</small></small></em>
+## *Amsterdam, the Netherlands<br><small><small>May 2018</small></small>*
+
+-
+
+---
+
+
+
+
+
+| background: assets/amsterdam/01_creative_mood.jpg
+| backgroundposition: 50% 33%
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
+| cols: 40vw
+
+-
+
+## *Building and testing e-learning projects*
+
+-
 
 ---
 
@@ -447,21 +573,41 @@
 
 
 
+| section: Trento, Italy, October 2018
+| background: assets/trento/trento.jpg
+| backgroundposition: 5% 50%
+| theme: dark
+| 1 
+| 2 
+| 3
+| rows: 1fr auto 6vh
+
+-
+
+## *Trento, Italy<br><small><small>October 2018</small></small>*
+
+-
+
+---
+
+
 
 
 
 
 | background: assets/trento/01_creative_mood.jpg
-| backgroundPosition: 95% 50%
+| backgroundposition: 95% 50%
 | theme: dark
-| 1 1
-| 2 3
-| rows: 1fr auto
-| section: Trento, Italy, October 2018
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
+| cols: 40vw
+
 
 -
 
-## <em>Introduction to web platform Fachwerk and testing<br><small><small>Trento, Italy, October 2018</small></small></em>
+## *Introduction to web platform Fachwerk and testing*
 
 -
 
@@ -516,7 +662,7 @@
 
 -
 
-<f-image src="assets/trento/15_creative_mood.jpg" />
+<f-image src="assets/trento/15_creative_mood.jpg" style="--image-position:30% center" />
 
 -
 
@@ -529,17 +675,41 @@
 
 
 
-| background: assets/braganca/01_creative_mood.jpg
-| backgroundPosition: 75% 50%
+| section: Braganca, Portugal, March 2019
+| background: assets/braganca/braganca.jpg
+| backgroundposition: 75% 50%
 | theme: dark
 | 1 
 | 2 
-| rows: 1fr auto
-| section: Braganca, Portugal, March 201
+| 3
+| rows: 1fr auto 6vh
 
 -
 
-## <em>Final improvements and testing<br><small><small>Braganca, Portugal, March 2019</small></small></em>
+## *Braganca, Portugal<br><small><small>March 2019</small></small>*
+
+-
+
+---
+
+
+
+
+
+| background: assets/braganca/01_creative_mood.jpg
+| backgroundposition: 75% 50%
+| theme: dark
+| 1 
+| 2 
+| 3
+| rows: 1fr auto 6vh
+| cols: 33vw
+
+-
+
+## *Final improvements and testing*
+
+-
 
 ---
 
@@ -604,21 +774,42 @@
 
 
 
+| background: assets/frankfurt/frankfurt.jpg
+| theme: dark
+| 1
+| 2
+| 3
+| rows: 1fr auto 6vh
+| section: Frankfurt, Germany, May 2019
+
+-
+
+## *Frankfurt, Germany<br><small><small>May 2019</small></small>*
+
+-
+
+---
+
 
 
 | background: assets/frankfurt/01_creative_mood.jpg
 | theme: dark
 | 1
 | 2
-| rows: 1fr auto
-| section: Frankfurt, Germany, May 2019
+| 3
+| rows: 1fr auto 6vh
+| cols: 40vw
 
 -
 
-## <em>Dissemination and final reporting meeting<br><small><small>Frankfurt, Germany, May 2019</small></small></em>
+## *Dissemination and final reporting meeting*
 
+-
 
 ---
+
+
+
 
 | 1 2 3
 | 4 4 4
@@ -676,6 +867,6 @@
 | background: assets/braganca/00_group.jpg
 | theme: dark
 
-<h1 style="text-align:center; margin-top:5vh;">
-    Til' next time!
-</h1>
+<h2 style="text-align:center; margin-top:5vh;">
+    Until next time!
+</h2>
