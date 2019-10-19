@@ -86,7 +86,7 @@
 
 -
 
-<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center;" class="zoom-inx" />
+<f-image src="assets/kuressaare/kuressaare-europe.jpg" style="--image-position:center center;" class="zoom-inx" />
 
 -
 
@@ -234,12 +234,15 @@
 
 
 
-| 1 2
-| 3 3
+| 1 2 3
+| 4 4 4
 | theme: dark
 | rows: 1fr auto
-| cols: 1fr 2fr
-| style: text-align: right;
+| cols: 1fr 1fr 2fr
+
+<f-image src="assets/piraeus/01_creative_mood.jpg" />
+
+-
 
 <f-image src="assets/piraeus/10_creative_mood.jpg" />
 
@@ -287,7 +290,7 @@
 
 | section: Middlesbrough, UK, October 2017
 | background: assets/middlesbrough/middlesbrough.jpg
-| tint: 0.5
+| tint: 0.4
 | theme: dark
 | 1
 | 2
