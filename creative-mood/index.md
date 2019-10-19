@@ -78,7 +78,7 @@
 | cols: 1fr 2fr 1fr
 
 
-<f-image src="assets/kuressaare/kuressaare-torsten.jpg" style="--image-position:60% center;" class="zoom-out" />
+<f-image src="assets/kuressaare/kuressaare-torsten.jpg" style="--image-position:60% center;" class="zoom-outx" />
 
 -
 
@@ -86,7 +86,7 @@
 
 -
 
-<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center;" class="zoom-in" />
+<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center;" class="zoom-inx" />
 
 -
 
@@ -148,11 +148,11 @@
 | cols: 1fr 2fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/helsinki/01_creative_mood.jpg" style="--image-position:20% center" class="zoom-out" />
+<f-image src="assets/helsinki/01_creative_mood.jpg" style="--image-position:20% center" class="zoom-outx" />
 
 -
 
-<f-image src="assets/helsinki/03_creative_mood.jpg" class="zoom-in" />
+<f-image src="assets/helsinki/03_creative_mood.jpg" class="zoom-inx" />
 
 -
 
@@ -179,7 +179,7 @@
 
 -
 
-<f-image src="assets/helsinki/14_creative_mood.jpg" style="background-position:50% center" class="zoom-in" />
+<f-image src="assets/helsinki/14_creative_mood.jpg" style="background-position:50% center" class="zoom-inx" />
 
 -
 

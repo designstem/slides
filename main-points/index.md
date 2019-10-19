@@ -488,7 +488,7 @@ plus several <var>interactive "playgrounds"</var>, where components can be mixed
 
   #### Merit Karise
   
-  ##### DesignSTEM Initiator and Project Manager 
+  ##### Design<sup class="super">STEM</sup> Initiator and Project Manager 
   
   design department of Kuressaare Regional Training Centre, Estonia 
   merit.karise@ametikool.ee
@@ -505,7 +505,7 @@ plus several <var>interactive "playgrounds"</var>, where components can be mixed
 
 #### PhD Jaakko Turkka
 
-##### DesignSTEM Head Pedagogical Consultant 
+##### Design<sup class="super">STEM</sup> Head Pedagogical Consultant 
 
 University of Helsinki, LUMA Centre, Finland 
 jaakko.turkka@helsinki.fi
@@ -531,5 +531,47 @@ kristjan.jansen@gmail.com
 
 ---
 
+| section: Links
+| rows: 1fr 1fr 1fr
+| 1 1 1
+| 2 3 4
+| 5 5 5
 
+<div class="bottom" style="align-items:center;">
 
+  # *What next?*
+
+</div>
+
+-
+
+<center>
+  
+  #### 1. <a href="https://designstem.github.io/projects" target="_blank">See sample projects</a>
+
+</center>
+
+-
+
+<center>
+
+  #### 2. <a href="https://designstem.github.io/fachwerk" target="_blank">Check out <var>Fachwerk</var> &ndash; a tool to build your own</a>
+
+</center>
+
+-
+<center>
+  
+  #### 3. <a href="https://designstem.github.io/fachwerk/docs/#/start-a-new-project" target="_blank">How to start YOUR project</a>
+
+</center>
+
+-
+
+<center>
+
+  <!-- *Thank you!* -->
+
+  <f-logo style="font-size:48px;" />
+
+</center>
