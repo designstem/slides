@@ -1,32 +1,30 @@
 
-
-| id: start
-| section: Designstem Erasmus +
-| theme: dark
+| section: Start
 | background: assets/background.jpg
-| tint: 0.85
-| height: 100vh
+| backgroundposition: 50% 0%
+| tint: 0.75
+| theme: dark
 
-<center style="flex-direction: column; padding: 0 15vw">
+<center>
 
-<f-logo />
+  <f-logo />
 
-### *e-tools for the integrated education of design and STEM*
+  <h4 style="margin-top:0.25em; font-weight:500; font-style: italic;">
+    e-tools for the integrated education of design and STEM
+  </h4>
 
-<var>The Creative and Co-operative Modus Operandi</var>
+  #### <span style="color:var(--white);"><var>*The Creative and Co-operative<br>Modus Operandi*</var></span>
 
-&nbsp;
-
-<div style="display: flex">
-    <!-- <img src="assets/designstem_logo.svg" style="width: 200px; margin-left: 50px;">  -->
-    <img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="width: 240px; background:white;">
-</div>
+  &nbsp;
+  
+  <f-next-button title="Start" />
 
 </center>
 
-
+<img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="position:fixed;right:0; bottom: 4vh; width:15vw; min-width:260px; max-width:420px; background:white; margin:2em 0" />
 
 ---
+
 
 
 
@@ -78,9 +76,9 @@
 | theme: dark
 | rows: 1fr auto
 | cols: 1fr 2fr 1fr
-| style: text-align: right;
 
-<f-image src="assets/kuressaare/kuressaare-torsten.jpg" style="--image-position:60% center" />
+
+<f-image src="assets/kuressaare/kuressaare-torsten.jpg" style="--image-position:60% center;" class="zoom-out" />
 
 -
 
@@ -88,7 +86,7 @@
 
 -
 
-<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center" />
+<f-image src="assets/kuressaare/kuressaare-saar.jpg" style="--image-position:80% center;" class="zoom-in" />
 
 -
 
@@ -150,15 +148,15 @@
 | cols: 1fr 2fr 2fr
 | style: text-align: right;
 
-<f-image src="assets/helsinki/01_creative_mood.jpg" style="--image-position:20% center" />
+<f-image src="assets/helsinki/01_creative_mood.jpg" style="--image-position:20% center" class="zoom-out" />
 
 -
 
-<f-image src="assets/helsinki/03_creative_mood.jpg" />
+<f-image src="assets/helsinki/03_creative_mood.jpg" class="zoom-in" />
 
 -
 
-<f-image src="assets/helsinki/12_creative_mood.jpg" />
+<f-image src="assets/helsinki/12_creative_mood.jpg"  />
 
 -
 
@@ -181,7 +179,7 @@
 
 -
 
-<f-image src="assets/helsinki/14_creative_mood.jpg" style="background-position:50% center" />
+<f-image src="assets/helsinki/14_creative_mood.jpg" style="background-position:50% center" class="zoom-in" />
 
 -
 
@@ -736,7 +734,7 @@
 
 -
 
-<em>Final improvements in Braganca, Portugal, March 2019</em>
+<em>Final improvements and testing in Braganca, Portugal, March 2019</em>
 
 ---
 
@@ -762,7 +760,7 @@
 
 -
 
-<em>Final improvements in Braganca, Portugal, March 2019</em>
+<em>Final improvements and testing in Braganca, Portugal, March 2019</em>
 
 ---
 

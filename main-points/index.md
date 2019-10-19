@@ -1,37 +1,28 @@
 | chapter: Main points
 | section: Start
 | background: 'https://www.dropbox.com/s/puwon9ydmztkbmy/00_background-frequency.jpg?raw=1'
+| backgroundposition: 50% 0%
 | tint: 0.75
 | theme: dark
-| 1 2 
 
-<!-- https://photos.app.goo.gl/BqpYDxbkDspWHBKd6 -->
-<!-- https://www.dropbox.com/sh/f1jax5x4qkh2ryx/AACx5mz2joMli84Y_V4wZU0Ra?raw=1 -->
-
-<div class="vertical-center">
+<center>
 
   <f-logo />
 
-  <small>e-tools for the integrated education of design and STEM</small>
+  <h4 style="margin-top:0.25em; font-weight:500; font-style: italic;">
+    e-tools for the integrated education of design and STEM
+  </h4>
 
+  # <span style="color:var(--white);">*Main points*</span>
+
+  &nbsp;
   
+  <f-next-button title="Start" />
 
-  <img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="width:15vw; min-width:260px; max-width:420px; background:white; margin:2em 0" />
+</center>
 
-</div>
-
-
--
-
-<div class="vertical-center">
-  
-  # <var style="color:var(--white)">Main points</var>
-  
-  <f-next-button style="--purple:var(--red);" title="Start" />
-  
-
-</div>
-
+<!-- https://photos.app.goo.gl/BqpYDxbkDspWHBKd6 -->
+<!-- https://www.dropbox.com/sh/f1jax5x4qkh2ryx/AACx5mz2joMli84Y_V4wZU0Ra?raw=1 -->
 
 <!-- <f-image src="https://lh3.googleusercontent.com/yd243S5A1FdbEMpcOqFrWPhoTkJxdY2Tuph1TfTQDKaD7UOW0janCrfW4geW2JscOYFBVOVcJSgKEzczVTOfX86brdVVFwevDqxWu_5lRGzaUYcliyGfY5DagH77SQP4RQCPSJ-U=w800-h600-no" /> -->
 
@@ -65,8 +56,11 @@ https://www.dropbox.com/s/qijb0j75lu48q85/00_background-turntable.jpg?raw=1
 https://www.dropbox.com/s/11thlljyhzs4kat/00_background-whiteboard.jpg?raw=1
 
 https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
+https://www.dropbox.com/s/62bhblw03dxospo/color-sphere.jpg?raw=1
+
 -->
 
+<img src="https://designstem.github.io/fachwerk/images/erasmus_logo.svg" style="position:fixed;right:0; bottom: 4vh; width:15vw; min-width:260px; max-width:420px; background:white; margin:2em 0" />
 
 ---
 
@@ -85,9 +79,9 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
   ## Problem
   
-  skills shortages in <var>STEM</var> fields’ labour market
+  <var>skills shortages</var> in STEM fields’ labour market
   &ndash;
-  lack of attractive, user-friendly, real-life STEM <var>learning</var> and <var>teaching resources</var>
+  <var>lack</var> of attractive, user-friendly, real-life STEM learning and teaching resources
 
 <f-next />
 
@@ -110,7 +104,7 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
 <section class="vertical-center">
   
-  ## Strategic aims<sup class="super"><var>1/4</var></sup>
+  ## Strategic aims<sup class="super"><var>1</var></sup>
 
   promote a <var>positive image of STEM</var>
 
@@ -137,9 +131,9 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
 <section class="vertical-center">
   
-  ## Strategic aims<sup class="super"><var>2/4</var></sup>
+  ## Strategic aims<sup class="super"><var>2</var></sup>
 
-  improve <var>school based</var> STEM teaching and learning
+  improve STEM <var>teaching</var> and <var>learning</var>
 
 <f-next />
 
@@ -162,9 +156,9 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
 <section class="vertical-center">
   
-  ## Strategic aims<sup class="super"><var>3/4</var></sup>
+  ## Strategic aims<sup class="super"><var>3</var></sup>
 
-  promote the <var>use of ICT</var> to increase the <var>quality</var> and <var>relevance</var> of open STEM education
+  promote the <var>use of ICT</var> to increase the quality and relevance of open STEM education
 
 <f-next />
 
@@ -186,7 +180,7 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
 <section class="vertical-center">
   
-  ## Strategic aims<sup class="super"><var>4/4</var></sup>
+  ## Strategic aims<sup class="super"><var>4</var></sup>
 
   support <var>integration within education</var>; synergies with <var>research</var> and <var>innovation</var> activities
 
@@ -212,7 +206,7 @@ https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1
 
 ## Tactical goals
 
-raise the attractiveness of STEM by integrating it with design education, i.e <var>developing functional</var>, <var>sustainable</var> and <var>aesthetic</var> goods, services, processes, messages and environments
+<var>raise the attractiveness</var> of STEM by integrating it with design education, i.e developing functional, sustainable and aesthetic goods, services, processes, messages and environments
 &ndash;
 <var>devise</var>, <var>design</var> and <var>disseminate</var> integrated design and STEM e-learning resources
 
@@ -222,7 +216,7 @@ raise the attractiveness of STEM by integrating it with design education, i.e <v
 
 -
 
-<f-image src="https://www.dropbox.com/s/i0j8yt8l8qw8iza/03_tactical-goals_1.jpg?raw=1" style="--image-min-height:80vh; --image-position:center center; " />
+<f-image src="https://www.dropbox.com/s/62bhblw03dxospo/color-sphere.jpg?raw=1" style="--image-min-height:80vh; --image-position:90% 80%; " />
 
 ---
 
@@ -266,7 +260,7 @@ raise the attractiveness of STEM by integrating it with design education, i.e <v
 
 ## Result<sup class="super"><var>1</var></sup>
 
-ca <var>15</var> long-term integrated <var>design and STEM projects</var> for schools
+15 long-term integrated <var>design and STEM projects</var> for schools
 
 <f-next />
 
@@ -289,7 +283,7 @@ ca <var>15</var> long-term integrated <var>design and STEM projects</var> for sc
 
 ## Result<sup class="super"><var>2</var></sup>
 
-composed of ca <var>75</var> short-term <var>exercises and tasks</var> for design and STEM lessons
+composed of 75 short-term <var>exercises and tasks</var> for design and STEM lessons
 
 <f-next />
 
@@ -323,7 +317,7 @@ on an open source, no-sign-in, free <var>web platform &ndash; Fachwerk</var>
 
 -
 
-<f-image src="https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1" style="--image-min-height:80vh; --image-position:30% 0%; " />
+<f-image src="https://www.dropbox.com/s/4716b3who8d2jpp/fachwerk-screenshot.jpg?raw=1" style="--image-min-height:80vh; --image-position:40% 0%; " />
 
 ---
 
@@ -335,7 +329,7 @@ on an open source, no-sign-in, free <var>web platform &ndash; Fachwerk</var>
 
 <div class="vertical-center">
 
-## Result<sup class="super"><var>4</var></sup>
+## Result<sup class="super"><var>3.1</var></sup>
 
 over 100 <var>interactive components</var> for teachers and students to build custom-made projects
 &ndash;
@@ -520,7 +514,7 @@ jaakko.turkka@helsinki.fi
 
 -
 
-<f-image src="https://www.dropbox.com/s/46saay0ra0pxned/07_kristjan-jansen.jpg?raw=1" style="--image-position:30% 30%;"  />
+<f-image src="https://www.dropbox.com/s/46saay0ra0pxned/07_kristjan-jansen.jpg?raw=1" style="--image-position:20% 30%;"  />
 
 -
 
@@ -539,4 +533,3 @@ kristjan.jansen@gmail.com
 
 
 
-asdas
