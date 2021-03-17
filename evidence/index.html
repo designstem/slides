@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://designstem.github.io/fachwerk/fachwerk.css">
+  <style>
+    /* :root {
+      --base: 1vw;
+    } */
+    body {
+      background: #f2f1f2;
+    }
+    .menu {
+      border-right: 1px dashed var(--gray);
+    }
+    .vertical-center{display:flex;flex-direction: column;justify-content: center;align-items:flex-start;height:100%;}
+    .bottom{display:flex;flex-direction: column;justify-content: flex-end;align-items:flex-start;height:100%;}
+    .super {
+      font-size: 50%;
+    }
+    /* #start>div{
+      background-size:100% auto !important;
+      transition: all 3s ease-in-out;
+    }
+    #start>div:hover{
+      background-size:120% auto !important;
+      transition: all 5s ease-in-out;
+    } */
+    @media (max-width: 800px) {
+    #start .cells {
+      display: grid !important;
+      padding:5vw !important;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div id="fachwerk"></div>
+  <script src="./index.js" type="module"></script>
+</body>
+</html>

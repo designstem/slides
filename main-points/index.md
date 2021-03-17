@@ -490,8 +490,8 @@ plus several <var>interactive "playgrounds"</var>, where components can be mixed
   
   ##### Design<sup class="super">STEM</sup> Initiator and Project Manager 
   
-  design department of Kuressaare Regional Training Centre, Estonia 
-  merit.karise@ametikool.ee
+  <small>design department of Kuressaare Regional Training Centre, Estonia 
+  merit.karise@ametikool.ee</small>
 
 </div>
 
@@ -507,8 +507,8 @@ plus several <var>interactive "playgrounds"</var>, where components can be mixed
 
 ##### Design<sup class="super">STEM</sup> Head Pedagogical Consultant 
 
-University of Helsinki, LUMA Centre, Finland 
-jaakko.turkka@helsinki.fi
+<small>University of Helsinki, LUMA Centre, Finland 
+jaakko.turkka@helsinki.fi</small>
 
 </div>
 
@@ -524,8 +524,8 @@ jaakko.turkka@helsinki.fi
 
 ##### Fachwerk Lead Developer
 
-design department of Kuressaare Regional Training Centre, Estonia 
-kristjan.jansen@gmail.com
+<small>design department of Kuressaare Regional Training Centre, Estonia 
+kristjan.jansen@gmail.com</small>
 
 </div>
 
